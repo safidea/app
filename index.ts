@@ -1,6 +1,6 @@
 import App from '@safidea_/engine'
 import dotenv from 'dotenv'
-import { config } from './config'
+import { app as config } from './app'
 
 dotenv.config()
 
