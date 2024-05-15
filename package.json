@@ -1,0 +1,24 @@
+{
+  "name": "@safidea/website",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target node --external @safidea_/engine",
+    "start": "node --env-file .env dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@safidea_/engine": "^0.6.1"
+  },
+  "engines": {
+    "bun": "1.0.34",
+    "node": "20.11.1",
+    "npm": "10.2.4"
+  }
+}
