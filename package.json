@@ -4,17 +4,22 @@
   "type": "module",
   "scripts": {
     "build": "bun build index.ts --outdir dist --target node --external @safidea_/engine",
-    "start": "node --env-file .env dist/index.js"
+    "watch": "bun build index.ts --outdir dist --target node --external @safidea_/engine --watch",
+    "dev": "concurrently \"nodemon dist/index.js\" \"npm run watch\"",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
     "prettier": "^3.2.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@safidea_/engine": "^0.6.1"
+    "@safidea_/engine": "^0.6.1",
+    "dotenv": "^16.4.5"
   },
   "engines": {
     "bun": "1.1.8",
