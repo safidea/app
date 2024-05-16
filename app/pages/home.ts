@@ -33,6 +33,7 @@ export const home: Page = {
     },
     {
       component: 'Features',
+      id: 'products-services',
       title: {
         text: 'Produits & services',
       },
@@ -81,6 +82,7 @@ export const home: Page = {
     },
     {
       component: 'Features',
+      id: 'organisation',
       title: {
         text: 'Organisation',
       },
