@@ -38,7 +38,7 @@ export const home: Page = {
         text: 'Produits & services',
       },
       paragraph: {
-        text: 'Nous proposons des produits et services pour construire votre système dinformation sur-mesure et souverain.',
+        text: 'Nous proposons des produits et services pour construire votre système d\'information sur-mesure et souverain.',
       },
       features: [
         {
