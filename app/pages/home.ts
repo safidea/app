@@ -22,12 +22,67 @@ export const home: Page = {
         text: 'Agence logiciel sur-mesure dédiée à votre souveraineté numérique',
       },
       paragraph: {
-        text: "Nous vous accompagnons dans la conception, le développement et la maintenance du système d'information de votre organisation grâce à notre technologie et nos experts.",
+        text: "Nous vous accompagnons dans la conception, le développement et la maintenance du système d'information de votre organisation grâce à notre expertise.",
       },
       buttons: [
         {
           label: 'Travailler avec nous',
           href: '/travailler-avec-nous',
+        },
+      ],
+    },
+    {
+      component: 'Container',
+      id: 'mission',
+      children: [
+        {
+          component: 'Title',
+          text: 'Mission',
+        },
+        {
+          component: 'Paragraph',
+          text: "La mission de Safidea est d'apporter le pouvoir, l'autonomie et la souveraineté technologique la plus élevée à ses clients à travers une organisation humaine centrée sur le bien-être de ses membres et de la planète.",
+          size: 'lg',
+        },
+        {
+          component: 'Paragraph',
+          text: 'Safidea promeut un contrôle complet sur le système d’informations, aussi bien dans les données manipulées pour tous les besoins opérationnels de l’organisation que dans les fonctionnalités des logiciels utilisées, permettant un usage simple, fluide et efficace.',
+          size: 'lg',
+        },
+        {
+          component: 'Paragraph',
+          text: 'Cela entend également une facilité à déporter tout son système d’information et ses données d’une infrastructure server à une autre, n’ayant ainsi réelle dépendance à une organisation externe, la rendant maître de ses besoins et lui permettant de se focaliser sur l’essentiel de son existence, de son métier.',
+          size: 'lg',
+        },
+        {
+          component: 'Paragraph',
+          text: "Ainsi, la technologie n’est plus un frein ni ne crée d’inertie dans la transformation des métiers et le déploiement d'offres de service ou de produit. L'expression d’un besoin métier en solution technique devient simple, le temps et l'énergie peuvent alors être focalisés sur la clarification et la précision du besoin métier.",
+          size: 'lg',
+        },
+      ],
+    },
+    {
+      component: 'Container',
+      id: 'culture',
+      children: [
+        {
+          component: 'Title',
+          text: 'Culture',
+        },
+        {
+          component: 'Paragraph',
+          text: 'Le modèle organisationnel de Safidea est centré sur le bien-être humain via un système se voulant incorruptible tout en permettant une efficacité de fonctionnement optimale suivant les besoins.',
+          size: 'lg',
+        },
+        {
+          component: 'Paragraph',
+          text: 'Afin d’assurer le bien-être des personnes y travaillant, la liberté d’action, la prise de décision éclairée et pertinente pour l’activité et l’incapacité à corrompre son fonctionnement, Safidea ne sera jamais un produit financier, et aucune personne n’y ayant travaillé ne pourra participer à la prise de décision concernant l’organisation. ',
+          size: 'lg',
+        },
+        {
+          component: 'Paragraph',
+          text: 'La transparence financière sera absolue, l’argent étant considéré comme une ressource à allouer pour la bonne réalisation de nos projets, le seul objectif financier à atteindre étant l’autosuffisance. ',
+          size: 'lg',
         },
       ],
     },
@@ -38,7 +93,7 @@ export const home: Page = {
         text: 'Produits & services',
       },
       paragraph: {
-        text: 'Nous proposons des produits et services pour construire votre système d\'information sur-mesure et souverain.',
+        text: "Nous proposons des produits et services pour construire votre système d'information sur-mesure et souverain.",
       },
       features: [
         {

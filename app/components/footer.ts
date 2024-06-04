@@ -1,4 +1,5 @@
 import type { Component } from '@safidea_/engine/page'
+import { links } from './links'
 
 export const footer: Component = {
   component: 'Footer',
@@ -6,17 +7,8 @@ export const footer: Component = {
     text: 'Safidea',
   },
   paragraph: {
-    text: 'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique.',
+    text: 'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Safidea Engine.',
   },
-  links: [
-    {
-      label: 'Produits & Services',
-      href: '#products-services',
-    },
-    {
-      label: 'Organisation',
-      href: '#organisation',
-    },
-  ],
+  links,
   copyright: '© 2024 Safidea',
 }
