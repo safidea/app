@@ -8,8 +8,8 @@ export const links = [
     href: '/#culture',
   },
   {
-    label: 'Produits & Services',
-    href: '/#products-services',
+    label: 'Projets',
+    href: '/#projects',
   },
   {
     label: 'Membres',

@@ -9,8 +9,8 @@ export const header: Component = {
   links,
   buttons: [
     {
-      label: 'Nous rejoindre',
-      href: '/nous-rejoindre',
+      label: 'Nous contacter',
+      href: '/#contact',
     },
   ],
 }
