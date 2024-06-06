@@ -94,7 +94,7 @@ const features: Component[] = projects.map((project) => ({
     },
     {
       title: {
-        text: 'Devenir utilisateur',
+        text: 'Devenir client',
       },
       paragraph: {
         text: project.user,
@@ -263,22 +263,24 @@ export const home: Page = {
         text: 'Nous contacter',
       },
       paragraph: {
-        text: 'Envoyez-nous votre message.',
+        text: 'Dites nous par quel projet vous êtes intéressé, que ce soit en tant que client ou contributeur, ou si vous avez une question ou un commentaire à nous faire parvenir.',
       },
-      action:
-        'https://hooks.airtable.com/workflows/v1/genericWebhook/appvfoFbHQxqYe621/wflEnWJ8P2EGrG4IU/wtrk3YVUvb1nB4yZu',
+      action: '/api/table/contacts',
+      method: 'POST',
       inputs: [
-        {
-          name: 'name',
-          label: 'Nom',
-        },
         {
           name: 'email',
           label: 'Email',
+          type: 'email',
+        },
+        {
+          name: 'subject',
+          label: 'Sujet',
         },
         {
           name: 'message',
           label: 'Message',
+          type: 'textarea',
         },
       ],
       buttons: [

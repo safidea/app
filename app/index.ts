@@ -1,5 +1,6 @@
 import type { App } from '@safidea_/engine'
 import { home } from './pages/home'
+import { contacts } from './tables/contacts'
 
 export const app: App = {
   name: 'Safidea website',
@@ -7,6 +8,7 @@ export const app: App = {
     {
       name: 'website',
       pages: [home],
+      tables: [contacts]
     },
   ],
   server: {

@@ -1,8 +1,8 @@
-import App from '@safidea_/engine'
 import dotenv from 'dotenv'
-import { app as config } from './app'
-
 dotenv.config()
+
+import App from '@safidea_/engine'
+import { app as config } from './app'
 
 const app = new App()
 const url = await app.start(config)
