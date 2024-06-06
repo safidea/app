@@ -1,6 +1,6 @@
 import type { Component, Page } from '@safidea_/engine/page'
-import { footer } from '../components/footer'
-import { header } from '../components/header'
+import { footer } from './components/footer'
+import { header } from './components/header'
 
 const projects = [
   {
