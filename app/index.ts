@@ -23,4 +23,8 @@ export const app: App = {
     pass: '$MAILER_PASS',
     from: '$MAILER_FROM',
   },
+  database: {
+    url: '$DATABASE_URL',
+    type: '$DATABASE_TYPE',
+  },
 }
