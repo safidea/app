@@ -18,7 +18,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@safidea_/engine": "^0.8.1",
+    "@safidea_/engine": "^0.8.2",
     "dotenv": "^16.4.5"
   },
   "engines": {
