@@ -3,23 +3,44 @@ import { home } from './pages/home'
 import { contacts } from './tables/contacts'
 import { newContact } from './automations/newContact'
 import { engineDocumentation } from './pages/engine/documentation'
+import { engine } from './pages/engine'
+import { request } from './pages/request'
+import { template } from './pages/template'
+import { system } from './pages/system'
+import { translations, type Translation } from './translations'
+import type { Feature } from '@safidea_/engine/feature'
+import { why } from './pages/why'
 
-export const app: App = {
-  name: 'Safidea website',
-  features: [
+const features: Feature[] = translations
+  .map((t: Translation) => [
     {
-      name: 'landing',
-      pages: [home],
+      name: 'company',
+      pages: [home(t), why(t)],
       tables: [contacts],
       automations: [newContact],
     },
     {
       name: 'engine',
-      pages: [engineDocumentation],
-      tables: [],
-      automations: [],
+      pages: [engine(t), engineDocumentation(t)],
     },
-  ],
+    {
+      name: 'template',
+      pages: [template(t)],
+    },
+    {
+      name: 'request',
+      pages: [request(t)],
+    },
+    {
+      name: 'system',
+      pages: [system(t)],
+    },
+  ])
+  .flat()
+
+export const app: App = {
+  name: 'Safidea website',
+  features,
   server: {
     port: '$PORT',
   },

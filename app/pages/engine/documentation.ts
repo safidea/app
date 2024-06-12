@@ -1,5 +1,6 @@
 import type { Component, Page } from '@safidea_/engine/page'
 import fs from 'fs-extra'
+import type { Translation } from '../../translations'
 
 const SCHEMA_PATH = './node_modules/@safidea_/engine/schemas/app.schema.json'
 
@@ -130,7 +131,7 @@ function buildSchemaDocumentation(schema: JSONSchema, title?: string): Component
   return doc
 }
 
-export const engineDocumentation: Page = {
+export const engineDocumentation = (t: Translation): Page => ({
   name: 'engine-documentation',
   path: '/engine/documentation',
   head: {
@@ -158,4 +159,4 @@ export const engineDocumentation: Page = {
       ],
     },
   ],
-}
+})

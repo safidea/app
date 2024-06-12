@@ -1,4 +1,4 @@
-# @safidea/website
+# Safidea Website
 
 To install dependencies:
 
