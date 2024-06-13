@@ -2,6 +2,18 @@ import type { Translation } from '.'
 
 export const en: Translation = {
   path: '',
+  header: {
+    productsAndServices: 'Products & Services',
+    whySafidea: 'Why Safidea?',
+    followTheAdventure: 'Follow the adventure',
+    contributeToTheProject: 'Contribute to the project',
+  },
+  footer: {
+    paragraph: 'Safidea is the best way to manage your projects.',
+    whySafidea: 'Why Safidea?',
+    followTheAdventure: 'Follow the adventure',
+    contributeToTheProject: 'Contribute to the project',
+  },
   engine: {
     heroTitle: 'Safidea',
     heroParagraph: 'The best way to manage your projects',
@@ -83,5 +95,44 @@ export const en: Translation = {
     ctaParagraph:
       'Discover how Safidea Template can help you build your web application from predefined configuration templates.',
     ctaButtonLabel: 'Discover Safidea Template',
+  },
+  requests: {
+    heroTitle: 'Your on-demand software service',
+    heroParagraph:
+      'We have created Safidea Requests to help you build your web application from predefined configuration templates.',
+    heroButtonLabel: 'View templates',
+    customersTitle: 'They trust us',
+    featuresTitle: 'Our services',
+    featuresParagraph: 'We offer a range of services to help you with your projects.',
+    features: [
+      {
+        title: 'Custom software development',
+        paragraph: 'We develop custom software tailored to your needs.',
+      },
+      {
+        title: 'Web application development',
+        paragraph: 'We develop web applications that meet your requirements.',
+      },
+      {
+        title: 'Mobile application development',
+        paragraph: 'We develop mobile applications that meet your requirements.',
+      },
+      {
+        title: 'Consulting',
+        paragraph: 'We provide consulting services to help you with your projects.',
+      },
+      {
+        title: 'DevOps',
+        paragraph: 'We provide DevOps services to help you with your projects.',
+      },
+      {
+        title: 'Support',
+        paragraph: 'We provide',
+      },
+    ],
+    ctaTitle: 'Get help building your web application in minutes',
+    ctaParagraph:
+      'Discover how Safidea Requests can help you build your web application from predefined configuration templates.',
+    ctaButtonLabel: 'Discover Safidea Requests',
   },
 }

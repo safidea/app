@@ -2,6 +2,19 @@ import type { Translation } from '.'
 
 export const fr: Translation = {
   path: '/fr',
+  header: {
+    productsAndServices: 'Produits & Services',
+    whySafidea: 'Pourquoi Safidea ?',
+    followTheAdventure: "Suivre l'aventure",
+    contributeToTheProject: 'Contribuer au projet',
+  },
+  footer: {
+    paragraph:
+      'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Safidea Engine.',
+    whySafidea: 'Pourquoi Safidea ?',
+    followTheAdventure: "Suivre l'aventure",
+    contributeToTheProject: 'Contribuer au projet',
+  },
   engine: {
     heroTitle: "Génére ton application web à partir d'une simple configuration",
     heroParagraph:
@@ -90,5 +103,48 @@ export const fr: Translation = {
     ctaParagraph:
       "Découvre comment Safidea Requests peut t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
     ctaButtonLabel: 'Découvrir Safidea Requests',
+  },
+  requests: {
+    heroTitle: 'Votre service logiciel à la demande',
+    heroParagraph:
+      "Nous avons créé Safidea Requests pour t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
+    heroButtonLabel: 'Faire une requête',
+    customersTitle: 'Ils nous font confiance',
+    featuresTitle: 'Nos services',
+    featuresParagraph:
+      "Nous vous proposons tous les services nécessaires pour la construction de votre système d'information.",
+    features: [
+      {
+        title: 'Développement web',
+        paragraph:
+          'Nous construisons des applications web en utilisant les dernières technologies.',
+      },
+      {
+        title: 'Développement mobile',
+        paragraph:
+          'Nous construisons des applications mobiles en utilisant les dernières technologies.',
+      },
+      {
+        title: 'DevOps',
+        paragraph:
+          'Nous automatisons le déploiement et assurons la maintenance de votre application.',
+      },
+      {
+        title: 'Consulting',
+        paragraph: "Nous vous conseillons pour la construction de votre système d'information.",
+      },
+      {
+        title: 'Formation',
+        paragraph: "Nous vous formons pour la construction de votre système d'information.",
+      },
+      {
+        title: 'Support',
+        paragraph:
+          'Nous assurons le support de votre application pour garantir son bon fonctionnement.',
+      },
+    ],
+    ctaTitle: 'Travaillons ensemble !',
+    ctaParagraph: "Ne soyez plus bloquer par le développement d'un nouvel outil",
+    ctaButtonLabel: 'Faire une requête',
   },
 }

@@ -7,35 +7,35 @@ export const footer = (t: Translation): Component => ({
     text: 'Safidea',
   },
   paragraph: {
-    text: 'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Safidea Engine.',
+    text: t.footer.paragraph,
   },
   links: [
+    {
+      label: 'Requests',
+      href: t.path + '/requests',
+    },
     {
       label: 'Engine',
       href: t.path + '/engine',
     },
     {
-      label: 'Template',
-      href: t.path + '/template',
-    },
-    {
-      label: 'Request',
-      href: t.path + '/request',
+      label: 'Templates',
+      href: t.path + '/templates',
     },
     {
       label: 'System',
       href: t.path + '/system',
     },
     {
-      label: 'Pourquoi Safidea ?',
+      label: t.footer.whySafidea,
       href: t.path + '/why',
     },
     {
-      label: "Suivre l'aventure",
+      label: t.footer.followTheAdventure,
       href: t.path + '/follow',
     },
     {
-      label: 'Contribuer au projet',
+      label: t.footer.contributeToTheProject,
       href: t.path + '/contribute',
     },
   ],

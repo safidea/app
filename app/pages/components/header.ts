@@ -8,8 +8,12 @@ export const header = (t: Translation): Component => ({
   },
   links: [
     {
-      label: 'Produits & Services',
+      label: t.header.productsAndServices,
       links: [
+        {
+          label: 'Requests',
+          href: t.path + '/requests',
+        },
         {
           label: 'Engine',
           href: t.path + '/engine',
@@ -19,27 +23,23 @@ export const header = (t: Translation): Component => ({
           href: t.path + '/templates',
         },
         {
-          label: 'Requests',
-          href: t.path + '/requests',
-        },
-        {
           label: 'System',
           href: t.path + '/system',
         },
       ],
     },
     {
-      label: 'Pourquoi Safidea ?',
+      label: t.header.whySafidea,
       href: t.path + '/why',
     },
     {
-      label: "Suivre l'aventure",
+      label: t.header.followTheAdventure,
       href: t.path + '/follow',
     },
   ],
   buttons: [
     {
-      label: 'Contribuer au projet',
+      label: t.header.contributeToTheProject,
       href: t.path + '/contribute',
     },
   ],

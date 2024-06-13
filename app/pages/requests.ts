@@ -14,15 +14,135 @@ export const requests = (t: Translation): Page => ({
     {
       component: 'Hero',
       title: {
-        text: '',
+        text: t.requests.heroTitle,
       },
       paragraph: {
-        text: '',
+        text: t.requests.heroParagraph,
       },
       buttons: [
         {
-          label: '',
-          href: '',
+          label: t.requests.heroButtonLabel,
+          href: 'https://requests.safidea.com',
+        },
+      ],
+    },
+    {
+      component: 'Logos',
+      title: {
+        text: t.requests.customersTitle,
+      },
+      images: [
+        {
+          alt: 'Agorastore',
+          src: '/customers/agorastore.jpeg',
+        },
+        {
+          alt: 'Capital PV',
+          src: '/customers/capital-pv.png',
+        },
+        {
+          alt: 'Codesign-it',
+          src: '/customers/codesign-it.png',
+        },
+        {
+          alt: "D'un seul geste",
+          src: '/customers/dun-seul-geste.png',
+        },
+        {
+          alt: "L'intendance",
+          src: '/customers/lintendance.png',
+        },
+      ],
+    },
+    {
+      component: 'Features',
+      title: {
+        text: t.requests.featuresTitle,
+      },
+      paragraph: {
+        text: t.requests.featuresParagraph,
+      },
+      features: [
+        {
+          title: {
+            text: t.requests.features[0].title,
+          },
+          paragraph: {
+            text: t.requests.features[0].paragraph,
+          },
+          icon: {
+            type: 'ComputerDesktop',
+          },
+        },
+        {
+          title: {
+            text: t.requests.features[1].title,
+          },
+          paragraph: {
+            text: t.requests.features[1].paragraph,
+          },
+          icon: {
+            type: 'DevicePhoneMobile',
+          },
+        },
+        {
+          title: {
+            text: t.requests.features[2].title,
+          },
+          paragraph: {
+            text: t.requests.features[2].paragraph,
+          },
+          icon: {
+            type: 'CommandLine',
+          },
+        },
+        {
+          title: {
+            text: t.requests.features[3].title,
+          },
+          paragraph: {
+            text: t.requests.features[3].paragraph,
+          },
+          icon: {
+            type: 'MagnifyingGlass',
+          },
+        },
+        {
+          title: {
+            text: t.requests.features[4].title,
+          },
+          paragraph: {
+            text: t.requests.features[4].paragraph,
+          },
+          icon: {
+            type: 'AcademicCap',
+          },
+        },
+        {
+          title: {
+            text: t.requests.features[5].title,
+          },
+          paragraph: {
+            text: t.requests.features[5].paragraph,
+          },
+          icon: {
+            type: 'ChatBubbleBottomCenterText',
+          },
+        },
+      ],
+    },
+    {
+      component: 'CTA',
+      title: {
+        text: t.requests.ctaTitle,
+      },
+      paragraph: {
+        text: t.requests.ctaParagraph,
+      },
+      buttons: [
+        {
+          label: t.requests.ctaButtonLabel,
+          href: 'https://requests.safidea.com',
         },
       ],
     },
