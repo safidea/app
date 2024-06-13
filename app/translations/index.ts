@@ -22,5 +22,9 @@ export type Translation = {
       title: string
       paragraph: string
     }[]
+    ctaTitle: string
+    ctaParagraph: string
+    ctaButtonLabel: string
+    ctaButtonHref: string
   }
 }

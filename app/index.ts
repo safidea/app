@@ -4,8 +4,8 @@ import { contacts } from './tables/contacts'
 import { newContact } from './automations/newContact'
 import { engineDocumentation } from './pages/engine/documentation'
 import { engine } from './pages/engine'
-import { request } from './pages/request'
-import { template } from './pages/template'
+import { requests } from './pages/requests'
+import { templates } from './pages/templates'
 import { system } from './pages/system'
 import { translations, type Translation } from './translations'
 import type { Feature } from '@safidea_/engine/feature'
@@ -24,12 +24,12 @@ const features: Feature[] = translations
       pages: [engine(t), engineDocumentation(t)],
     },
     {
-      name: 'template',
-      pages: [template(t)],
+      name: 'templates',
+      pages: [templates(t)],
     },
     {
-      name: 'request',
-      pages: [request(t)],
+      name: 'requests',
+      pages: [requests(t)],
     },
     {
       name: 'system',

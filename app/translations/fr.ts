@@ -57,6 +57,9 @@ export const fr: Translation = {
         paragraph: 'La base de données relationnelle Open Source la plus avancée au monde.',
       },
     ],
-    //ctaTitle: 'Construit un logiciel en quelques minutes',
+    ctaTitle: 'Construit ton logiciel en quelques minutes',
+    ctaParagraph: 'Découvre comment Safidea Template peut t\'aider à construire ton application web à partir de modèle de configuration prédéfini.',
+    ctaButtonLabel: 'Découvrir Safidea Template',
+    ctaButtonHref: '/template',
   },
 }

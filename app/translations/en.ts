@@ -49,8 +49,12 @@ export const en: Translation = {
       },
       {
         title: 'Postgres',
-        paragraph: 'The world\'s most advanced open source relational database.',
+        paragraph: "The world's most advanced open source relational database.",
       },
     ],
+    ctaTitle: 'Get started with Safidea',
+    ctaParagraph: 'Start managing your projects in minutes.',
+    ctaButtonLabel: 'Get started',
+    ctaButtonHref: '/template',
   },
 }

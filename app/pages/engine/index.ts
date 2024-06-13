@@ -66,6 +66,21 @@ export const engine = (t: Translation): Page => ({
         },
       })),
     },
+    {
+      component: 'CTA',
+      title: {
+        text: t.engine.ctaTitle,
+      },
+      paragraph: {
+        text: t.engine.ctaParagraph,
+      },
+      buttons: [
+        {
+          label: t.engine.ctaButtonLabel,
+          href: t.engine.ctaButtonHref,
+        },
+      ],
+    },
     footer(t),
   ],
 })

@@ -15,12 +15,12 @@ export const header = (t: Translation): Component => ({
           href: t.path + '/engine',
         },
         {
-          label: 'Template',
-          href: t.path + '/template',
+          label: 'Templates',
+          href: t.path + '/templates',
         },
         {
-          label: 'Request',
-          href: t.path + '/request',
+          label: 'Requests',
+          href: t.path + '/requests',
         },
         {
           label: 'System',

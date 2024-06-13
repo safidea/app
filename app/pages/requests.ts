@@ -3,11 +3,11 @@ import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
 
-export const request = (t: Translation): Page => ({
-  name: 'request',
-  path: t.path + '/request',
+export const requests = (t: Translation): Page => ({
+  name: 'requests',
+  path: t.path + '/requests',
   head: {
-    title: 'Request',
+    title: 'Requests',
   },
   body: [
     header(t),
