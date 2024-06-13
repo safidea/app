@@ -9,5 +9,5 @@ export const system = (t: Translation): Page => ({
   head: {
     title: 'System',
   },
-  body: [header(t), footer(t),],
+  body: [header(t), footer(t)],
 })

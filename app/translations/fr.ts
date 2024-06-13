@@ -3,11 +3,10 @@ import type { Translation } from '.'
 export const fr: Translation = {
   path: '/fr',
   engine: {
-    heroTitle: "Générer votre application web à partir d'une simple configuration",
+    heroTitle: "Génére ton application web à partir d'une simple configuration",
     heroParagraph:
-      "Nous contruisons un puissant moteur permettant la développement complet d'une application web depuis un fichier de configuration JSON.",
+      "Nous contruisons un puissant moteur permettant le développement complet d'une application web depuis un fichier de configuration JSON.",
     heroButtonLabel: 'Ouvrir sur Github',
-    heroButtonHref: 'https://github.com/safidea/engine',
     featuresTitle: "Quel est l'objectif de Safidea Engine ?",
     featuresParagraph:
       'Proposer tout ce dont tu as besoin pour créer et maintenir un logiciel en quelques minutes.',
@@ -41,8 +40,7 @@ export const fr: Translation = {
       },
     ],
     technologiesTitle: 'Technologies utilisées',
-    technologiesParagraph:
-      'Construit sur des outils performants et éprouvés.',
+    technologiesParagraph: 'Construit sur des outils performants et éprouvés.',
     technologies: [
       {
         title: 'Express JS',
@@ -50,7 +48,8 @@ export const fr: Translation = {
       },
       {
         title: 'Hotwired Turbo',
-        paragraph: 'La vitesse d\'une application Web d\'une seule page sans avoir à écrire de JavaScript.',
+        paragraph:
+          "La vitesse d'une application Web d'une seule page sans avoir à écrire de JavaScript.",
       },
       {
         title: 'Postgres',
@@ -58,8 +57,38 @@ export const fr: Translation = {
       },
     ],
     ctaTitle: 'Construit ton logiciel en quelques minutes',
-    ctaParagraph: 'Découvre comment Safidea Template peut t\'aider à construire ton application web à partir de modèle de configuration prédéfini.',
+    ctaParagraph:
+      "Découvre comment Safidea Template peut t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
     ctaButtonLabel: 'Découvrir Safidea Template',
-    ctaButtonHref: '/template',
+  },
+  templates: {
+    heroTitle: 'Développe sans partir de zero',
+    heroParagraph:
+      'Nous construisons des modèles de configuration prédéfinis pour te permettre de développer ton application web en quelques minutes.',
+    heroButtonLabel: 'Voir les modèles',
+    featuresTitle: 'Pourquoi utiliser Safidea Template ?',
+    featuresParagraph:
+      'Gagne du temps en utilisant des modèles de configuration prédéfinis pour construire ton application web.',
+    features: [
+      {
+        title: "Prêt à l'emploi",
+        paragraph:
+          'Utilise des modèles de configuration prédéfinis pour construire ton application web en quelques minutes.',
+      },
+      {
+        title: 'Personnalisable',
+        paragraph:
+          'Personnalise les modèles de configuration prédéfinis pour répondre à tes besoins spécifiques.',
+      },
+      {
+        title: 'Open Source',
+        paragraph:
+          'Tous les modèles de configuration prédéfinis sont open source et peuvent être modifiés librement.',
+      },
+    ],
+    ctaTitle: 'Fait toi accompagné pour construire ton application web en quelques minutes',
+    ctaParagraph:
+      "Découvre comment Safidea Requests peut t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
+    ctaButtonLabel: 'Découvrir Safidea Requests',
   },
 }

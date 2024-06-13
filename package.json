@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "lint": "prettier --write .",
     "build": "bun build index.ts --outdir dist --target node --external @safidea_/engine",
     "watch": "bun build index.ts --outdir dist --target node --external @safidea_/engine --watch",
     "dev": "concurrently \"nodemon dist/index.js\" \"npm run watch\"",

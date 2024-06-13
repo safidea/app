@@ -9,7 +9,6 @@ export type Translation = {
     heroTitle: string
     heroParagraph: string
     heroButtonLabel: string
-    heroButtonHref: string
     featuresTitle: string
     featuresParagraph: string
     features: {
@@ -25,6 +24,19 @@ export type Translation = {
     ctaTitle: string
     ctaParagraph: string
     ctaButtonLabel: string
-    ctaButtonHref: string
+  }
+  templates: {
+    heroTitle: string
+    heroParagraph: string
+    heroButtonLabel: string
+    featuresTitle: string
+    featuresParagraph: string
+    features: {
+      title: string
+      paragraph: string
+    }[]
+    ctaTitle: string
+    ctaParagraph: string
+    ctaButtonLabel: string
   }
 }

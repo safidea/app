@@ -6,7 +6,6 @@ export const en: Translation = {
     heroTitle: 'Safidea',
     heroParagraph: 'The best way to manage your projects',
     heroButtonLabel: 'Get started',
-    heroButtonHref: '/request',
     featuresTitle: 'Features',
     featuresParagraph:
       'Safidea is a platform that allows you to manage your projects in a simple and efficient way.',
@@ -55,6 +54,34 @@ export const en: Translation = {
     ctaTitle: 'Get started with Safidea',
     ctaParagraph: 'Start managing your projects in minutes.',
     ctaButtonLabel: 'Get started',
-    ctaButtonHref: '/template',
+  },
+  templates: {
+    heroTitle: 'Discover Safidea Template',
+    heroParagraph:
+      'We have created predefined configuration templates to help you build your web application in minutes.',
+    heroButtonLabel: 'View templates',
+    featuresTitle: 'Why use Safidea Template?',
+    featuresParagraph:
+      'Save time by using predefined configuration templates to build your web application.',
+    features: [
+      {
+        title: 'Ready to use',
+        paragraph:
+          'Use predefined configuration templates to build your web application in minutes.',
+      },
+      {
+        title: 'Customizable',
+        paragraph: 'Customize predefined configuration templates to meet your specific needs.',
+      },
+      {
+        title: 'Open Source',
+        paragraph:
+          'All predefined configuration templates are open source and can be freely modified.',
+      },
+    ],
+    ctaTitle: 'Build your web application in minutes',
+    ctaParagraph:
+      'Discover how Safidea Template can help you build your web application from predefined configuration templates.',
+    ctaButtonLabel: 'Discover Safidea Template',
   },
 }

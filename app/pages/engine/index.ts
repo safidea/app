@@ -22,7 +22,7 @@ export const engine = (t: Translation): Page => ({
       buttons: [
         {
           label: t.engine.heroButtonLabel,
-          href: t.engine.heroButtonHref,
+          href: 'https://github.com/safidea/engine',
         },
       ],
     },
@@ -77,7 +77,7 @@ export const engine = (t: Translation): Page => ({
       buttons: [
         {
           label: t.engine.ctaButtonLabel,
-          href: t.engine.ctaButtonHref,
+          href: t.path + '/templates',
         },
       ],
     },
