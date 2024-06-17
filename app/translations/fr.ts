@@ -3,17 +3,17 @@ import type { Translation } from '.'
 export const fr: Translation = {
   path: '/fr',
   header: {
-    productsAndServices: 'Produits & Services',
+    productsAndServices: 'Nos produits & services',
     whySafidea: 'Pourquoi Safidea ?',
     followTheAdventure: "Suivre l'aventure",
-    contributeToTheProject: 'Contribuer au projet',
+    contributeToTheProject: 'Devenir contributeur',
   },
   footer: {
     paragraph:
       'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Safidea Engine.',
     whySafidea: 'Pourquoi Safidea ?',
     followTheAdventure: "Suivre l'aventure",
-    contributeToTheProject: 'Contribuer au projet',
+    contributeToTheProject: 'Devenir contributeur',
   },
   engine: {
     heroTitle: "Génére ton application web à partir d'une simple configuration",
@@ -105,7 +105,7 @@ export const fr: Translation = {
     ctaButtonLabel: 'Découvrir Safidea Requests',
   },
   requests: {
-    heroTitle: 'Votre service logiciel à la demande',
+    heroTitle: 'Votre service IT sur-mesure à la demande',
     heroParagraph:
       "Nous avons créé Safidea Requests pour t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
     heroButtonLabel: 'Faire une requête',
@@ -146,5 +146,58 @@ export const fr: Translation = {
     ctaTitle: 'Travaillons ensemble !',
     ctaParagraph: "Ne soyez plus bloquer par le développement d'un nouvel outil",
     ctaButtonLabel: 'Faire une requête',
+  },
+  why: {
+    heroTitle: 'Nous prenons soin des collaborations humaines.',
+    heroParagraph:
+      'Nous construisons des outils informatiques vous permettant de vous concentrer sur l’essentiel de votre métier.',
+    heroCustomerButtonLabel: 'Devenir client',
+    heroContributorButtonLabel: 'Devenir contributeur',
+    manifeste: 'Manifeste',
+    toCustomers: "À l'intention de nos clients",
+    firstCustomersStatement: 'Un outil informatique devrait être simple à créer et à modifier.',
+    firstCustomersStatementDescription:
+      "Il existe des technologies permettant la création rapide d'outils et la facilité d'évolution. Notre service Requests vous permet de faire appel aux compétences nécessaires pour cela, vous permettant de vous focaliser sur les besoins et enjeux métiers.",
+    secondCustomersStatement: 'Un outil informatique devrait être facile à utiliser.',
+    secondCustomersStatementDescription:
+      "Nous cherchons la solution technique la plus simple permettant de répondre pertinament à la complexité de vos besoins. Nous nous efforçons de rendre l'expérience utilisateur la plus agréable possible, en nous basant sur les retours de nos clients.",
+    thirdCustomersStatement: 'Un outil informatique devrait être souverain.',
+    thirdCustomersStatementDescription:
+      'Suivant les besoins, nous vous garantissons la propriété de vos données et de vos outils. Nous vous accompagnons dans la mise en place de solutions techniques respectueuses de votre souveraineté numérique.',
+    toContributors: "À l'intention de nos contributeurs",
+    firstContributorsStatement: 'Le travail devrait être consenti.',
+    firstContributorsStatementDescription:
+      'Notre organisation demande le consentement de chacun de ses contributeurs pour chaque décision impactant son quotidien.',
+    secondContributorsStatement: 'Le travail devrait être responsable.',
+    secondContributorsStatementDescription:
+      "Chaques contributeurs est responsable de la qualité de son travail et de son impact sur l'organisation. Nous demandons la prise de responsabilité et l'autonomie dans le travail de chacun.",
+    thirdContributorsStatement: 'Le travail devrait être justement rémunéré.',
+    thirdContributorsStatementDescription:
+      'Nous garantissons une rémunération juste et équitable pour chaque contributeur, en fonction de son implication et de son expertise.',
+  },
+  follow: {
+    title: "Suivez l'aventure",
+    paragraph:
+      "Thomas, le fondateur de Safidea, partagera régulièrement les échecs, les réussites et les apprentissages de l'organisation.",
+    email: 'Saisissez votre adresse email',
+    emailPlaceholder: 'prenom.nom@gmail.com',
+    buttonLabel: "S'inscrire à la newsletter",
+    successMessage: 'Votre inscription à notre newsletter bien été enregistrée.',
+    founderTitle: 'Fondateur',
+    founderDescription:
+      "J’ai décidé de créer Safidea car je suis profondément persuadé que la technologie est sous-exploitée, mal utilisée, mal perçue, gangrénée par des dynamiques capitalistes. Elle ne devrait pas créer de problème. Dans un monde du travail où la notion d’humain est absente, j'estime que prendre soin des autres n’est pas un luxe qu’on peut se permettre, mais une nécessité pour créer société plus juste et plus épanouissante.",
+  },
+  contribute: {
+    title: 'Devenez contributeur',
+    paragraph:
+      "Que vous souhaitiez contribuer à nos projets open-source ou de nos développements de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
+    inputName: 'Nom',
+    inputEmail: 'Email',
+    inputWhy: 'Pourquoi souhaitez-vous contribuer ?',
+    inputHow: 'Comment souhaitez-vous contribuer ?',
+    inputWhat: 'Sur quels projets souhaitez-vous contribuer ?',
+    inputSkills: 'Quelles sont vos compétences ?',
+    button: 'Envoyer',
+    successMessage: 'Votre demande de contribution a bien été enregistrée.',
   },
 }

@@ -22,10 +22,6 @@ export const header = (t: Translation): Component => ({
           label: 'Templates',
           href: t.path + '/templates',
         },
-        {
-          label: 'System',
-          href: t.path + '/system',
-        },
       ],
     },
     {

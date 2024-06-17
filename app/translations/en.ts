@@ -3,83 +3,90 @@ import type { Translation } from '.'
 export const en: Translation = {
   path: '',
   header: {
-    productsAndServices: 'Products & Services',
+    productsAndServices: 'Our products & services',
     whySafidea: 'Why Safidea?',
     followTheAdventure: 'Follow the adventure',
-    contributeToTheProject: 'Contribute to the project',
+    contributeToTheProject: 'Become a contributor',
   },
   footer: {
-    paragraph: 'Safidea is the best way to manage your projects.',
+    paragraph:
+      'Safidea is a custom software agency dedicated to your digital sovereignty. This website was developed with Safidea Engine.',
     whySafidea: 'Why Safidea?',
     followTheAdventure: 'Follow the adventure',
-    contributeToTheProject: 'Contribute to the project',
+    contributeToTheProject: 'Become a contributor',
   },
   engine: {
-    heroTitle: 'Safidea',
-    heroParagraph: 'The best way to manage your projects',
-    heroButtonLabel: 'Get started',
-    featuresTitle: 'Features',
+    heroTitle: 'Generate your web application from a simple configuration',
+    heroParagraph:
+      'We build a powerful engine allowing the complete development of a web application from a JSON configuration file.',
+    heroButtonLabel: 'Open on Github',
+    featuresTitle: 'What is the goal of Safidea Engine?',
     featuresParagraph:
-      'Safidea is a platform that allows you to manage your projects in a simple and efficient way.',
+      'Provide everything you need to create and maintain software in a few minutes.',
     features: [
       {
-        title: 'Task management',
-        paragraph: 'Create, assign and track tasks with ease.',
+        title: 'Static Web Page',
+        paragraph: 'Create a homepage, a blog, or a showcase site.',
       },
       {
-        title: 'Time tracking',
-        paragraph: 'Track the time spent on each task.',
+        title: 'Real-time CRUD Interface',
+        paragraph:
+          'Manage a database with CRUD components (creation, editing forms, lists, tables) and real-time data display.',
       },
       {
-        title: 'Project management',
-        paragraph: 'Create and manage projects with ease.',
+        title: 'Automated Workflow',
+        paragraph:
+          'Automate repetitive tasks (calculations, sending emails, generating documents).',
       },
       {
-        title: 'Team management',
-        paragraph: 'Invite your team members and assign them to projects.',
+        title: 'Authentication',
+        paragraph: "Secure access to certain pages based on the user's role.",
       },
       {
-        title: 'Reports',
-        paragraph: 'Generate reports based on your projects and tasks.',
+        title: 'Third-Party Integrations',
+        paragraph: 'Connect your application to other services (Stripe, Sendgrid, etc.).',
       },
       {
-        title: 'Integrations',
-        paragraph: 'Connect Safidea to other services (Slack, Trello, etc.).',
+        title: 'Automated Testing',
+        paragraph:
+          'Automate the testing of your application to ensure its integrity with every modification.',
       },
     ],
-    technologiesTitle: 'Technologies',
+    technologiesTitle: 'Technologies Used',
     technologiesParagraph: 'Built on powerful and proven tools.',
     technologies: [
       {
         title: 'Express JS',
-        paragraph: 'Minimalist, flexible and fast web infrastructure for Node.js',
+        paragraph: 'A minimalistic, flexible, and fast web framework for Node.js.',
       },
       {
         title: 'Hotwired Turbo',
-        paragraph: 'The speed of a single-page web application without having to write JavaScript.',
+        paragraph:
+          'The speed of a single-page web application without having to write any JavaScript.',
       },
       {
         title: 'Postgres',
-        paragraph: "The world's most advanced open source relational database.",
+        paragraph: "The world's most advanced Open Source relational database.",
       },
     ],
-    ctaTitle: 'Get started with Safidea',
-    ctaParagraph: 'Start managing your projects in minutes.',
-    ctaButtonLabel: 'Get started',
+    ctaTitle: 'Build your software in a few minutes',
+    ctaParagraph:
+      'Discover how Safidea Template can help you build your web application from a predefined configuration template.',
+    ctaButtonLabel: 'Discover Safidea Template',
   },
   templates: {
-    heroTitle: 'Discover Safidea Template',
+    heroTitle: 'Develop without starting from scratch',
     heroParagraph:
-      'We have created predefined configuration templates to help you build your web application in minutes.',
-    heroButtonLabel: 'View templates',
+      'We build predefined configuration templates to help you develop your web application in a few minutes.',
+    heroButtonLabel: 'View Templates',
     featuresTitle: 'Why use Safidea Template?',
     featuresParagraph:
-      'Save time by using predefined configuration templates to build your web application.',
+      'Save time using predefined configuration templates to build your web application.',
     features: [
       {
-        title: 'Ready to use',
+        title: 'Ready to Use',
         paragraph:
-          'Use predefined configuration templates to build your web application in minutes.',
+          'Use predefined configuration templates to build your web application in a few minutes.',
       },
       {
         title: 'Customizable',
@@ -91,48 +98,99 @@ export const en: Translation = {
           'All predefined configuration templates are open source and can be freely modified.',
       },
     ],
-    ctaTitle: 'Build your web application in minutes',
+    ctaTitle: 'Get assistance to build your web application in a few minutes',
     ctaParagraph:
-      'Discover how Safidea Template can help you build your web application from predefined configuration templates.',
-    ctaButtonLabel: 'Discover Safidea Template',
+      'Discover how Safidea Requests can help you build your web application from a predefined configuration template.',
+    ctaButtonLabel: 'Discover Safidea Requests',
   },
   requests: {
-    heroTitle: 'Your on-demand software service',
+    heroTitle: 'Your on-demand IT service',
     heroParagraph:
-      'We have created Safidea Requests to help you build your web application from predefined configuration templates.',
-    heroButtonLabel: 'View templates',
-    customersTitle: 'They trust us',
-    featuresTitle: 'Our services',
-    featuresParagraph: 'We offer a range of services to help you with your projects.',
+      'We created Safidea Requests to help you build your web application from a predefined configuration template.',
+    heroButtonLabel: 'Make a Request',
+    customersTitle: 'They Trust Us',
+    featuresTitle: 'Our Services',
+    featuresParagraph: 'We provide all the services needed to build your information system.',
     features: [
       {
-        title: 'Custom software development',
-        paragraph: 'We develop custom software tailored to your needs.',
+        title: 'Web Development',
+        paragraph: 'We build web applications using the latest technologies.',
       },
       {
-        title: 'Web application development',
-        paragraph: 'We develop web applications that meet your requirements.',
-      },
-      {
-        title: 'Mobile application development',
-        paragraph: 'We develop mobile applications that meet your requirements.',
-      },
-      {
-        title: 'Consulting',
-        paragraph: 'We provide consulting services to help you with your projects.',
+        title: 'Mobile Development',
+        paragraph: 'We build mobile applications using the latest technologies.',
       },
       {
         title: 'DevOps',
-        paragraph: 'We provide DevOps services to help you with your projects.',
+        paragraph: 'We automate deployment and ensure the maintenance of your application.',
+      },
+      {
+        title: 'Consulting',
+        paragraph: 'We advise you on building your information system.',
+      },
+      {
+        title: 'Training',
+        paragraph: 'We train you to build your information system.',
       },
       {
         title: 'Support',
-        paragraph: 'We provide',
+        paragraph: 'We provide support for your application to ensure its proper functioning.',
       },
     ],
-    ctaTitle: 'Get help building your web application in minutes',
-    ctaParagraph:
-      'Discover how Safidea Requests can help you build your web application from predefined configuration templates.',
-    ctaButtonLabel: 'Discover Safidea Requests',
+    ctaTitle: "Let's work together!",
+    ctaParagraph: "Don't be held back by developing a new tool.",
+    ctaButtonLabel: 'Make a request',
+  },
+  why: {
+    heroTitle: 'We take care of human collaborations.',
+    heroParagraph: 'We build IT tools that allow you to focus on the essentials of your business.',
+    heroCustomerButtonLabel: 'Become a customer',
+    heroContributorButtonLabel: 'Become a contributor',
+    manifeste: 'Manifesto',
+    toCustomers: 'To our customers',
+    firstCustomersStatement: 'An IT tool should be simple to create and modify.',
+    firstCustomersStatementDescription:
+      'There are technologies that allow the rapid creation of tools and ease of evolution. Our Requests service allows you to call on the necessary skills for this, allowing you to focus on business needs and challenges.',
+    secondCustomersStatement: 'An IT tool should be easy to use.',
+    secondCustomersStatementDescription:
+      'We seek the simplest technical solution to respond effectively to the complexity of your needs. We strive to make the user experience as pleasant as possible, based on feedback from our customers.',
+    thirdCustomersStatement: 'An IT tool should be sovereign.',
+    thirdCustomersStatementDescription:
+      'Depending on your needs, we guarantee the ownership of your data and tools. We support you in implementing technical solutions that respect your digital sovereignty.',
+    toContributors: 'To our contributors',
+    firstContributorsStatement: 'Work should be consensual.',
+    firstContributorsStatementDescription:
+      'Our organization requires the consent of each of its contributors for any decision impacting their daily life.',
+    secondContributorsStatement: 'Work should be responsible.',
+    secondContributorsStatementDescription:
+      "Each contributor is responsible for the quality of their work and its impact on the organization. We require responsibility and autonomy in each individual's work.",
+    thirdContributorsStatement: 'Work should be fairly compensated.',
+    thirdContributorsStatementDescription:
+      'We guarantee fair and equitable compensation for each contributor, based on their involvement and expertise.',
+  },
+  follow: {
+    title: 'Follow the adventure',
+    paragraph:
+      "Thomas, the founder of Safidea, will regularly share the organization's failures, successes, and learnings.",
+    email: 'Enter your email address',
+    emailPlaceholder: 'firstname.lastname@gmail.com',
+    buttonLabel: 'Subscribe to the Newsletter',
+    successMessage: 'Your subscription to our newsletter has been successfully recorded.',
+    founderTitle: 'Founder',
+    founderDescription:
+      'I decided to create Safidea because I am deeply convinced that technology is underutilized, misused, misunderstood, and tainted by capitalist dynamics. It should not create problems. In a work world where the notion of humanity is absent, I believe that taking care of others is not a luxury we can afford, but a necessity to create a fairer and more fulfilling society.',
+  },
+  contribute: {
+    title: 'Become a contributor',
+    paragraph:
+      'Whether you want to contribute to our open-source projects or the development of our products and services, we would be delighted to welcome you to the organization.',
+    inputName: 'Name',
+    inputEmail: 'Email',
+    inputWhy: 'Why do you want to contribute?',
+    inputHow: 'How do you want to contribute?',
+    inputWhat: 'Which projects do you want to contribute to?',
+    inputSkills: 'What are your skills?',
+    button: 'Send',
+    successMessage: 'Your contribution request has been successfully recorded.',
   },
 }

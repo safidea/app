@@ -135,7 +135,7 @@ export const home = (t: Translation): Page => ({
     {
       component: 'Hero',
       title: {
-        text: 'Régie logiciel sur-mesure dédiée à votre souveraineté numérique',
+        text: 'Service IT sur-mesure dédiée à votre bien-être numérique',
       },
       paragraph: {
         text: 'Nous vous accompagnons dans la conception, le développement et la maintenance de vos logiciels métiers grâce à notre expertise.',
@@ -160,48 +160,6 @@ export const home = (t: Translation): Page => ({
       ],
     },
     ...features,
-    {
-      component: 'Container',
-      id: 'members',
-      children: [
-        {
-          component: 'Title',
-          text: 'Membres',
-          align: 'center',
-          size: 'xl',
-        },
-      ],
-    },
-    {
-      component: 'Container',
-      id: 'members',
-      children: [
-        {
-          component: 'Image',
-          src: '/profile.jpg',
-          alt: 'Thomas JEANNEAU',
-          rounded: 'xl',
-          align: 'center',
-        },
-        {
-          component: 'Title',
-          text: 'Thomas JEANNEAU',
-          size: 'xs',
-          align: 'center',
-        },
-        {
-          component: 'Paragraph',
-          text: 'Responsable Développement',
-          align: 'center',
-        },
-        {
-          component: 'Paragraph',
-          text: '"J’ai décidé de créer Safidea car je suis profondément persuadé que la technologie est sous-exploitée, mal utilisée, mal perçue, gangrénée par des dynamiques capitalistes, et qu’elle pourrait régler beaucoup plus de problèmes qu’en créer. J’ai également le sentiment que, dans un monde du travail où nous passons une bonne partie de notre vie et où la notion d’humain est abstraite, voire totalement absente, prendre soin des autres n’est pas un luxe qu’on peut se permettre, mais une nécessité."',
-          align: 'center',
-          size: 'lg',
-        },
-      ],
-    },
     {
       component: 'Form',
       id: 'contact',

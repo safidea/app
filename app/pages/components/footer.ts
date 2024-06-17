@@ -23,10 +23,6 @@ export const footer = (t: Translation): Component => ({
       href: t.path + '/templates',
     },
     {
-      label: 'System',
-      href: t.path + '/system',
-    },
-    {
       label: t.footer.whySafidea,
       href: t.path + '/why',
     },

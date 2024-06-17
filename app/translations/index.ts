@@ -66,4 +66,47 @@ export type Translation = {
     ctaParagraph: string
     ctaButtonLabel: string
   }
+  why: {
+    heroTitle: string
+    heroParagraph: string
+    heroCustomerButtonLabel: string
+    heroContributorButtonLabel: string
+    manifeste: string
+    toCustomers: string
+    firstCustomersStatement: string
+    firstCustomersStatementDescription: string
+    secondCustomersStatement: string
+    secondCustomersStatementDescription: string
+    thirdCustomersStatement: string
+    thirdCustomersStatementDescription: string
+    toContributors: string
+    firstContributorsStatement: string
+    firstContributorsStatementDescription: string
+    secondContributorsStatement: string
+    secondContributorsStatementDescription: string
+    thirdContributorsStatement: string
+    thirdContributorsStatementDescription: string
+  }
+  follow: {
+    title: string
+    paragraph: string
+    buttonLabel: string
+    email: string
+    emailPlaceholder: string
+    successMessage: string
+    founderTitle: string
+    founderDescription: string
+  }
+  contribute: {
+    title: string
+    paragraph: string
+    inputName: string
+    inputEmail: string
+    inputWhy: string
+    inputHow: string
+    inputWhat: string
+    inputSkills: string
+    button: string
+    successMessage: string
+  }
 }
