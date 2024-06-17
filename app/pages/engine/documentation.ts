@@ -149,7 +149,7 @@ export const engineDocumentation = (t: Translation): Page => ({
       children: [
         {
           component: 'Title',
-          text: 'Safidea Engine Documentation',
+          text: 'Engine Documentation',
         },
         {
           component: 'Paragraph',

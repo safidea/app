@@ -7,11 +7,11 @@ export const why = (t: Translation): Page => ({
   name: 'home',
   path: t.path + '/why',
   head: {
-    title: 'Safidea',
+    title: t.why.pageTitle,
     metas: [
       {
         name: 'description',
-        content: 'Safidea',
+        content: t.why.pageDescription,
       },
     ],
   },
@@ -33,6 +33,7 @@ export const why = (t: Translation): Page => ({
         {
           label: t.why.heroContributorButtonLabel,
           href: t.path + '/contribute',
+          variant: 'secondary',
         },
       ],
     },

@@ -7,11 +7,11 @@ export const contribute = (t: Translation): Page => ({
   name: 'home',
   path: t.path + '/contribute',
   head: {
-    title: 'Safidea',
+    title: t.contribute.pageTitle,
     metas: [
       {
         name: 'description',
-        content: 'Safidea',
+        content: t.contribute.pageDescription,
       },
     ],
   },

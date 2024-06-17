@@ -7,7 +7,13 @@ export const requests = (t: Translation): Page => ({
   name: 'requests',
   path: t.path + '/requests',
   head: {
-    title: 'Requests',
+    title: t.requests.pageTitle,
+    metas: [
+      {
+        name: 'description',
+        content: t.requests.pageDescription,
+      },
+    ],
   },
   body: [
     header(t),

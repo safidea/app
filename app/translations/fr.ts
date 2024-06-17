@@ -10,19 +10,44 @@ export const fr: Translation = {
   },
   footer: {
     paragraph:
-      'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Safidea Engine.',
+      'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Engine.',
     whySafidea: 'Pourquoi Safidea ?',
     followTheAdventure: "Suivre l'aventure",
     contributeToTheProject: 'Devenir contributeur',
   },
-  engine: {
-    heroTitle: "Génére ton application web à partir d'une simple configuration",
+  home: {
+    pageTitle: 'Service IT sur-mesure dédiée à votre bien-être numérique',
+    pageDescription:
+      'Nous vous accompagnons dans la conception, le développement et la maintenance de vos outils métiers grâce à notre expertise.',
+    heroTitle: 'Service IT sur-mesure dédiée à votre bien-être numérique',
     heroParagraph:
-      "Nous contruisons un puissant moteur permettant le développement complet d'une application web depuis un fichier de configuration JSON.",
+      'Nous vous accompagnons dans la conception, le développement et la maintenance de vos outils métiers grâce à notre expertise.',
+    heroCustomerButtonLabel: 'Devenir client',
+    heroContributorButtonLabel: 'Devenir contributeur',
+    requestsTitle: 'Requests, notre service de gestion des demandes IT',
+    requestsParagraph:
+      'Requests est service en ligne dédié à la gestion de vos demande de conseil techniques, de nouveaux outils, de nouvelles fonctionnalités ou de maintenance.',
+    requestsButtonLabel: 'En savoir plus',
+    engineTitle: "Engine, notre technologie open-source de génération d'application web",
+    engineParagraph:
+      "Engine est un moteur de génération d'application web à partir d'un fichier de configuration JSON.",
+    engineButtonLabel: 'En savoir plus',
+    templatesTitle: 'Templates, nos modèles de configuration prédéfinis',
+    templatesParagraph:
+      'Templates est une application web qui vous permet de générer des applications web à partir de modèles de configuration prédéfinis.',
+    templatesButtonLabel: 'En savoir plus',
+  },
+  engine: {
+    pageTitle: "Générez votre application web à partir d'une simple configuration",
+    pageDescription:
+      "Nous construisons un puissant moteur permettant le développement complet d'une application web depuis un fichier de configuration JSON.",
+    heroTitle: "Générez votre application web à partir d'une simple configuration",
+    heroParagraph:
+      "Nous construisons un puissant moteur permettant le développement complet d'une application web depuis un fichier de configuration JSON.",
     heroButtonLabel: 'Ouvrir sur Github',
-    featuresTitle: "Quel est l'objectif de Safidea Engine ?",
+    featuresTitle: "Quel est l'objectif de Engine ?",
     featuresParagraph:
-      'Proposer tout ce dont tu as besoin pour créer et maintenir un logiciel en quelques minutes.',
+      'Proposer tout ce dont vous avez besoin pour créer et maintenir un logiciel en quelques minutes.',
     features: [
       {
         title: 'Page web static',
@@ -31,25 +56,25 @@ export const fr: Translation = {
       {
         title: 'Interface CRUD en temps réel',
         paragraph:
-          "Manage une base de données avec des composants CRUD (formulaires de création, d'édition, listes, tableaux) et un affichage des données en temps réel.",
+          "Gérez une base de données avec des composants CRUD (formulaires de création, d'édition, listes, tableaux) et un affichage des données en temps réel.",
       },
       {
         title: 'Workflow automatisé',
         paragraph:
-          'Automatise certaines tâches répétitives (calculs, envoi de mail, génération de documents).',
+          'Automatisez certaines tâches répétitives (calculs, envoi de mail, génération de documents).',
       },
       {
         title: 'Authentification',
-        paragraph: "Sécurise l'accès à certaines pages en fonction du rôle de l'utilisateur.",
+        paragraph: "Sécurisez l'accès à certaines pages en fonction du rôle de l'utilisateur.",
       },
       {
         title: 'Intégrations tierces',
-        paragraph: "Connecte ton application à d'autres services (Stripe, Sendgrid, etc.).",
+        paragraph: "Connectez votre application à d'autres services (Stripe, Sendgrid, etc.).",
       },
       {
         title: 'Tests automatisés',
         paragraph:
-          "Automatise les tests de ton application pour s'assurer de son intégrité à chaque modification.",
+          "Automatisez les tests de votre application pour s'assurer de son intégrité à chaque modification.",
       },
     ],
     technologiesTitle: 'Technologies utilisées',
@@ -69,29 +94,32 @@ export const fr: Translation = {
         paragraph: 'La base de données relationnelle Open Source la plus avancée au monde.',
       },
     ],
-    ctaTitle: 'Construit ton logiciel en quelques minutes',
+    ctaTitle: 'Construisez votre logiciel en quelques minutes',
     ctaParagraph:
-      "Découvre comment Safidea Template peut t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
-    ctaButtonLabel: 'Découvrir Safidea Template',
+      'Découvrez comment Templates peut vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
+    ctaButtonLabel: 'Découvrir Templates',
   },
   templates: {
-    heroTitle: 'Développe sans partir de zero',
+    pageTitle: 'Développez sans partir de zéro',
+    pageDescription:
+      'Nous construisons des modèles de configuration prédéfinis pour vous permettre de développer votre application web en quelques minutes.',
+    heroTitle: 'Développez sans partir de zéro',
     heroParagraph:
-      'Nous construisons des modèles de configuration prédéfinis pour te permettre de développer ton application web en quelques minutes.',
+      'Nous construisons des modèles de configuration prédéfinis pour vous permettre de développer votre application web en quelques minutes.',
     heroButtonLabel: 'Voir les modèles',
-    featuresTitle: 'Pourquoi utiliser Safidea Template ?',
+    featuresTitle: 'Pourquoi utiliser Templates ?',
     featuresParagraph:
-      'Gagne du temps en utilisant des modèles de configuration prédéfinis pour construire ton application web.',
+      'Gagnez du temps en utilisant des modèles de configuration prédéfinis pour construire votre application web.',
     features: [
       {
         title: "Prêt à l'emploi",
         paragraph:
-          'Utilise des modèles de configuration prédéfinis pour construire ton application web en quelques minutes.',
+          'Utilisez des modèles de configuration prédéfinis pour construire votre application web en quelques minutes.',
       },
       {
         title: 'Personnalisable',
         paragraph:
-          'Personnalise les modèles de configuration prédéfinis pour répondre à tes besoins spécifiques.',
+          'Personnalisez les modèles de configuration prédéfinis pour répondre à vos besoins spécifiques.',
       },
       {
         title: 'Open Source',
@@ -99,15 +127,18 @@ export const fr: Translation = {
           'Tous les modèles de configuration prédéfinis sont open source et peuvent être modifiés librement.',
       },
     ],
-    ctaTitle: 'Fait toi accompagné pour construire ton application web en quelques minutes',
+    ctaTitle: 'Faites-vous accompagner pour construire votre application web en quelques minutes',
     ctaParagraph:
-      "Découvre comment Safidea Requests peut t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
-    ctaButtonLabel: 'Découvrir Safidea Requests',
+      'Découvrez comment Requests peut vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
+    ctaButtonLabel: 'Découvrir Requests',
   },
   requests: {
+    pageTitle: 'Votre service IT sur-mesure à la demande',
+    pageDescription:
+      'Nous avons créé Safidea Requests pour vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
     heroTitle: 'Votre service IT sur-mesure à la demande',
     heroParagraph:
-      "Nous avons créé Safidea Requests pour t'aider à construire ton application web à partir de modèle de configuration prédéfini.",
+      'Nous avons créé Safidea Requests pour vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
     heroButtonLabel: 'Faire une requête',
     customersTitle: 'Ils nous font confiance',
     featuresTitle: 'Nos services',
@@ -144,10 +175,13 @@ export const fr: Translation = {
       },
     ],
     ctaTitle: 'Travaillons ensemble !',
-    ctaParagraph: "Ne soyez plus bloquer par le développement d'un nouvel outil",
+    ctaParagraph: "Ne soyez plus bloqués par le développement d'un nouvel outil",
     ctaButtonLabel: 'Faire une requête',
   },
   why: {
+    pageTitle: 'Pourquoi Safidea ?',
+    pageDescription:
+      'Nous prenons soin des collaborations humaines. Nous construisons des outils informatiques vous permettant de vous concentrer sur l’essentiel de votre métier.',
     heroTitle: 'Nous prenons soin des collaborations humaines.',
     heroParagraph:
       'Nous construisons des outils informatiques vous permettant de vous concentrer sur l’essentiel de votre métier.',
@@ -170,12 +204,15 @@ export const fr: Translation = {
       'Notre organisation demande le consentement de chacun de ses contributeurs pour chaque décision impactant son quotidien.',
     secondContributorsStatement: 'Le travail devrait être responsable.',
     secondContributorsStatementDescription:
-      "Chaques contributeurs est responsable de la qualité de son travail et de son impact sur l'organisation. Nous demandons la prise de responsabilité et l'autonomie dans le travail de chacun.",
+      "Chaque contributeur est responsable de la qualité de son travail et de son impact sur l'organisation. Nous demandons la prise de responsabilité et l'autonomie dans le travail de chacun.",
     thirdContributorsStatement: 'Le travail devrait être justement rémunéré.',
     thirdContributorsStatementDescription:
       'Nous garantissons une rémunération juste et équitable pour chaque contributeur, en fonction de son implication et de son expertise.',
   },
   follow: {
+    pageTitle: "Suivez l'aventure",
+    pageDescription:
+      "Thomas, le fondateur de Safidea, partagera régulièrement les échecs, les réussites et les apprentissages de l'organisation.",
     title: "Suivez l'aventure",
     paragraph:
       "Thomas, le fondateur de Safidea, partagera régulièrement les échecs, les réussites et les apprentissages de l'organisation.",
@@ -185,14 +222,17 @@ export const fr: Translation = {
     successMessage: 'Votre inscription à notre newsletter bien été enregistrée.',
     founderTitle: 'Fondateur',
     founderDescription:
-      "J’ai décidé de créer Safidea car je suis profondément persuadé que la technologie est sous-exploitée, mal utilisée, mal perçue, gangrénée par des dynamiques capitalistes. Elle ne devrait pas créer de problème. Dans un monde du travail où la notion d’humain est absente, j'estime que prendre soin des autres n’est pas un luxe qu’on peut se permettre, mais une nécessité pour créer société plus juste et plus épanouissante.",
+      "J’ai décidé de créer Safidea car je suis profondément persuadé que la technologie est sous-exploitée, mal utilisée, mal perçue, gangrénée par des dynamiques capitalistes. Elle ne devrait pas créer de problème. Dans un monde du travail où la notion d’humain est absente, j'estime que prendre soin des autres n’est pas un luxe qu’on peut se permettre, mais une nécessité pour créer une société plus juste et plus épanouissante.",
   },
   contribute: {
+    pageTitle: 'Devenez contributeur',
+    pageDescription:
+      "Que vous souhaitiez contribuer à nos projets open-source ou au développement de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
     title: 'Devenez contributeur',
     paragraph:
-      "Que vous souhaitiez contribuer à nos projets open-source ou de nos développements de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
-    inputName: 'Nom',
-    inputEmail: 'Email',
+      "Que vous souhaitiez contribuer à nos projets open-source ou au développement de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
+    inputName: 'Votre nom',
+    inputEmail: 'Votre email',
     inputWhy: 'Pourquoi souhaitez-vous contribuer ?',
     inputHow: 'Comment souhaitez-vous contribuer ?',
     inputWhat: 'Sur quels projets souhaitez-vous contribuer ?',

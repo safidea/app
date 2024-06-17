@@ -7,7 +7,13 @@ export const engine = (t: Translation): Page => ({
   name: 'engine',
   path: t.path + '/engine',
   head: {
-    title: 'Engine',
+    title: t.engine.pageTitle,
+    metas: [
+      {
+        name: 'description',
+        content: t.engine.pageDescription,
+      },
+    ],
   },
   body: [
     header(t),

@@ -7,7 +7,13 @@ export const templates = (t: Translation): Page => ({
   name: 'templates',
   path: t.path + '/templates',
   head: {
-    title: 'Templates',
+    title: t.templates.pageTitle,
+    metas: [
+      {
+        name: 'description',
+        content: t.templates.pageDescription,
+      },
+    ],
   },
   body: [
     header(t),

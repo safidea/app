@@ -7,11 +7,11 @@ export const follow = (t: Translation): Page => ({
   name: 'home',
   path: t.path + '/follow',
   head: {
-    title: 'Safidea',
+    title: t.follow.pageTitle,
     metas: [
       {
         name: 'description',
-        content: 'Safidea',
+        content: t.follow.pageDescription,
       },
     ],
   },

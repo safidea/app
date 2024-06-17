@@ -10,17 +10,42 @@ export const en: Translation = {
   },
   footer: {
     paragraph:
-      'Safidea is a custom software agency dedicated to your digital sovereignty. This website was developed with Safidea Engine.',
+      'Safidea is a custom software agency dedicated to your digital sovereignty. This website was developed with Engine.',
     whySafidea: 'Why Safidea?',
     followTheAdventure: 'Follow the adventure',
     contributeToTheProject: 'Become a contributor',
   },
+  home: {
+    pageTitle: 'Custom IT service dedicated to your digital well-being',
+    pageDescription:
+      'We support you in the design, development, and maintenance of your business tools through our expertise.',
+    heroTitle: 'Custom IT service dedicated to your digital well-being',
+    heroParagraph:
+      'We support you in the design, development, and maintenance of your business tools through our expertise.',
+    heroCustomerButtonLabel: 'Become a client',
+    heroContributorButtonLabel: 'Become a contributor',
+    requestsTitle: 'Requests, our IT request management service',
+    requestsParagraph:
+      'Requests is an online service dedicated to managing your technical consulting requests, new tools, new features, or maintenance.',
+    requestsButtonLabel: 'Learn more',
+    engineTitle: 'Engine, our open-source web application generation technology',
+    engineParagraph:
+      'Engine is a web application generation engine from a JSON configuration file.',
+    engineButtonLabel: 'Learn more',
+    templatesTitle: 'Templates, our predefined configuration models',
+    templatesParagraph:
+      'Templates is a web application that allows you to generate web applications from predefined configuration templates.',
+    templatesButtonLabel: 'Learn more',
+  },
   engine: {
+    pageTitle: 'Generate your web application from a simple configuration',
+    pageDescription:
+      'We build a powerful engine allowing the complete development of a web application from a JSON configuration file.',
     heroTitle: 'Generate your web application from a simple configuration',
     heroParagraph:
       'We build a powerful engine allowing the complete development of a web application from a JSON configuration file.',
     heroButtonLabel: 'Open on Github',
-    featuresTitle: 'What is the goal of Safidea Engine?',
+    featuresTitle: 'What is the goal of Engine?',
     featuresParagraph:
       'Provide everything you need to create and maintain software in a few minutes.',
     features: [
@@ -71,15 +96,18 @@ export const en: Translation = {
     ],
     ctaTitle: 'Build your software in a few minutes',
     ctaParagraph:
-      'Discover how Safidea Template can help you build your web application from a predefined configuration template.',
-    ctaButtonLabel: 'Discover Safidea Template',
+      'Discover how Templates can help you build your web application from a predefined configuration template.',
+    ctaButtonLabel: 'Discover Templates',
   },
   templates: {
+    pageTitle: 'Develop without starting from scratch',
+    pageDescription:
+      'We build predefined configuration templates to help you develop your web application in a few minutes.',
     heroTitle: 'Develop without starting from scratch',
     heroParagraph:
       'We build predefined configuration templates to help you develop your web application in a few minutes.',
     heroButtonLabel: 'View Templates',
-    featuresTitle: 'Why use Safidea Template?',
+    featuresTitle: 'Why use Templates?',
     featuresParagraph:
       'Save time using predefined configuration templates to build your web application.',
     features: [
@@ -100,14 +128,17 @@ export const en: Translation = {
     ],
     ctaTitle: 'Get assistance to build your web application in a few minutes',
     ctaParagraph:
-      'Discover how Safidea Requests can help you build your web application from a predefined configuration template.',
-    ctaButtonLabel: 'Discover Safidea Requests',
+      'Discover how Requests can help you build your web application from a predefined configuration template.',
+    ctaButtonLabel: 'Discover Requests',
   },
   requests: {
-    heroTitle: 'Your on-demand IT service',
+    pageTitle: 'Your custom on-demand IT service',
+    pageDescription:
+      'We created Requests to help you build your web application from a predefined configuration template.',
+    heroTitle: 'Your custom on-demand IT service',
     heroParagraph:
-      'We created Safidea Requests to help you build your web application from a predefined configuration template.',
-    heroButtonLabel: 'Make a Request',
+      'We created Requests to help you build your web application from a predefined configuration template.',
+    heroButtonLabel: 'Make a request',
     customersTitle: 'They Trust Us',
     featuresTitle: 'Our Services',
     featuresParagraph: 'We provide all the services needed to build your information system.',
@@ -142,6 +173,9 @@ export const en: Translation = {
     ctaButtonLabel: 'Make a request',
   },
   why: {
+    pageTitle: 'Why Safidea?',
+    pageDescription:
+      'We take care of human collaborations. We build IT tools that allow you to focus on the essentials of your business.',
     heroTitle: 'We take care of human collaborations.',
     heroParagraph: 'We build IT tools that allow you to focus on the essentials of your business.',
     heroCustomerButtonLabel: 'Become a customer',
@@ -169,6 +203,9 @@ export const en: Translation = {
       'We guarantee fair and equitable compensation for each contributor, based on their involvement and expertise.',
   },
   follow: {
+    pageTitle: 'Follow the adventure',
+    pageDescription:
+      "Thomas, the founder of Safidea, will regularly share the organization's failures, successes, and learnings.",
     title: 'Follow the adventure',
     paragraph:
       "Thomas, the founder of Safidea, will regularly share the organization's failures, successes, and learnings.",
@@ -181,11 +218,14 @@ export const en: Translation = {
       'I decided to create Safidea because I am deeply convinced that technology is underutilized, misused, misunderstood, and tainted by capitalist dynamics. It should not create problems. In a work world where the notion of humanity is absent, I believe that taking care of others is not a luxury we can afford, but a necessity to create a fairer and more fulfilling society.',
   },
   contribute: {
+    pageTitle: 'Become a contributor',
+    pageDescription:
+      'Whether you want to contribute to our open-source projects or the development of our products and services, we would be delighted to welcome you to the organization.',
     title: 'Become a contributor',
     paragraph:
       'Whether you want to contribute to our open-source projects or the development of our products and services, we would be delighted to welcome you to the organization.',
-    inputName: 'Name',
-    inputEmail: 'Email',
+    inputName: 'Your name',
+    inputEmail: 'Your email',
     inputWhy: 'Why do you want to contribute?',
     inputHow: 'How do you want to contribute?',
     inputWhat: 'Which projects do you want to contribute to?',

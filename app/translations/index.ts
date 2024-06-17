@@ -17,7 +17,26 @@ export type Translation = {
     followTheAdventure: string
     contributeToTheProject: string
   }
+  home: {
+    pageTitle: string
+    pageDescription: string
+    heroTitle: string
+    heroParagraph: string
+    heroCustomerButtonLabel: string
+    heroContributorButtonLabel: string
+    requestsTitle: string
+    requestsParagraph: string
+    requestsButtonLabel: string
+    engineTitle: string
+    engineParagraph: string
+    engineButtonLabel: string
+    templatesTitle: string
+    templatesParagraph: string
+    templatesButtonLabel: string
+  }
   engine: {
+    pageTitle: string
+    pageDescription: string
     heroTitle: string
     heroParagraph: string
     heroButtonLabel: string
@@ -38,6 +57,8 @@ export type Translation = {
     ctaButtonLabel: string
   }
   templates: {
+    pageTitle: string
+    pageDescription: string
     heroTitle: string
     heroParagraph: string
     heroButtonLabel: string
@@ -52,6 +73,8 @@ export type Translation = {
     ctaButtonLabel: string
   }
   requests: {
+    pageTitle: string
+    pageDescription: string
     heroTitle: string
     heroParagraph: string
     heroButtonLabel: string
@@ -67,6 +90,8 @@ export type Translation = {
     ctaButtonLabel: string
   }
   why: {
+    pageTitle: string
+    pageDescription: string
     heroTitle: string
     heroParagraph: string
     heroCustomerButtonLabel: string
@@ -88,6 +113,8 @@ export type Translation = {
     thirdContributorsStatementDescription: string
   }
   follow: {
+    pageTitle: string
+    pageDescription: string
     title: string
     paragraph: string
     buttonLabel: string
@@ -98,6 +125,8 @@ export type Translation = {
     founderDescription: string
   }
   contribute: {
+    pageTitle: string
+    pageDescription: string
     title: string
     paragraph: string
     inputName: string
