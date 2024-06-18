@@ -10,7 +10,7 @@ export const fr: Translation = {
   },
   footer: {
     paragraph:
-      'Safidea est une agence logiciel sur-mesure dédiée à votre souveraineté numérique. Ce site web a été développé avec Engine.',
+      'Safidea est un service IT sur-mesure dédié à votre bien-être numérique. Ce site web a été développé avec Engine.',
     whySafidea: 'Pourquoi Safidea ?',
     followTheAdventure: "Suivre l'aventure",
     contributeToTheProject: 'Devenir contributeur',
