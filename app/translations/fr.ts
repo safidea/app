@@ -106,7 +106,7 @@ export const fr: Translation = {
     heroTitle: 'Développez sans partir de zéro',
     heroParagraph:
       'Nous construisons des modèles de configuration prédéfinis pour vous permettre de développer votre application web en quelques minutes.',
-    heroButtonLabel: 'Voir les modèles',
+    heroButtonLabel: 'Ouvrir sur Github',
     featuresTitle: 'Pourquoi utiliser Templates ?',
     featuresParagraph:
       'Gagnez du temps en utilisant des modèles de configuration prédéfinis pour construire votre application web.',
