@@ -2,6 +2,7 @@ import type { Page } from '@safidea_/engine/page'
 import { footer } from './components/footer'
 import { header } from './components/header'
 import type { Translation } from '../translations'
+import { head } from './components/head'
 
 export const follow = (t: Translation): Page => ({
   name: 'home',
@@ -14,6 +15,7 @@ export const follow = (t: Translation): Page => ({
         content: t.follow.pageDescription,
       },
     ],
+    links: head?.links,
   },
   body: [
     header(t),
@@ -33,6 +35,7 @@ export const follow = (t: Translation): Page => ({
           label: t.follow.email,
           placeholder: t.follow.emailPlaceholder,
           type: 'email',
+          required: true,
         },
       ],
       buttons: [
@@ -45,8 +48,7 @@ export const follow = (t: Translation): Page => ({
     },
     {
       component: 'Container',
-      id: 'members',
-      width: 'lg',
+      width: 'md',
       children: [
         {
           component: 'Image',

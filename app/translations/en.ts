@@ -40,10 +40,10 @@ export const en: Translation = {
   engine: {
     pageTitle: 'Generate your web application from a simple configuration',
     pageDescription:
-      'We build a powerful engine allowing the complete development of a web application from a JSON configuration file.',
+      'We are building a powerful engine allowing the complete development of a web application from a JSON configuration file.',
     heroTitle: 'Generate your web application from a simple configuration',
     heroParagraph:
-      'We build a powerful engine allowing the complete development of a web application from a JSON configuration file.',
+      'We are building a powerful engine allowing the complete development of a web application from a JSON configuration file.',
     heroButtonLabel: 'Open on Github',
     featuresTitle: 'What is the goal of Engine?',
     featuresParagraph:
@@ -102,10 +102,10 @@ export const en: Translation = {
   templates: {
     pageTitle: 'Develop without starting from scratch',
     pageDescription:
-      'We build predefined configuration templates to help you develop your web application in a few minutes.',
+      'We are building predefined configuration templates to help you develop your web application in a few minutes.',
     heroTitle: 'Develop without starting from scratch',
     heroParagraph:
-      'We build predefined configuration templates to help you develop your web application in a few minutes.',
+      'We are building predefined configuration templates to help you develop your web application in a few minutes.',
     heroButtonLabel: 'View Templates',
     featuresTitle: 'Why use Templates?',
     featuresParagraph:
@@ -139,8 +139,8 @@ export const en: Translation = {
     heroParagraph:
       'We created Requests to help you build your web application from a predefined configuration template.',
     heroButtonLabel: 'Make a request',
-    customersTitle: 'They Trust Us',
-    featuresTitle: 'Our Services',
+    customersTitle: 'They trust us',
+    featuresTitle: 'Our services',
     featuresParagraph: 'We provide all the services needed to build your information system.',
     features: [
       {

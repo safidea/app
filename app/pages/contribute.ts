@@ -2,6 +2,7 @@ import type { Page } from '@safidea_/engine/page'
 import { footer } from './components/footer'
 import { header } from './components/header'
 import type { Translation } from '../translations'
+import { head } from './components/head'
 
 export const contribute = (t: Translation): Page => ({
   name: 'home',
@@ -14,6 +15,7 @@ export const contribute = (t: Translation): Page => ({
         content: t.contribute.pageDescription,
       },
     ],
+    links: head?.links,
   },
   body: [
     header(t),
@@ -32,31 +34,37 @@ export const contribute = (t: Translation): Page => ({
           name: 'name',
           label: t.contribute.inputName,
           type: 'text',
+          required: true,
         },
         {
           name: 'email',
           label: t.contribute.inputEmail,
           type: 'email',
+          required: true,
         },
         {
           name: 'why',
           label: t.contribute.inputWhy,
           type: 'textarea',
+          required: true,
         },
         {
           name: 'how',
           label: t.contribute.inputHow,
           type: 'textarea',
+          required: true,
         },
         {
           name: 'what',
           label: t.contribute.inputWhat,
           type: 'textarea',
+          required: true,
         },
         {
           name: 'skills',
           label: t.contribute.inputSkills,
           type: 'textarea',
+          required: true,
         },
       ],
       buttons: [

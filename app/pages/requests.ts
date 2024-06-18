@@ -2,6 +2,7 @@ import type { Page } from '@safidea_/engine/page'
 import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
+import { head } from './components/head'
 
 export const requests = (t: Translation): Page => ({
   name: 'requests',
@@ -14,6 +15,7 @@ export const requests = (t: Translation): Page => ({
         content: t.requests.pageDescription,
       },
     ],
+    links: head?.links,
   },
   body: [
     header(t),

@@ -2,6 +2,7 @@ import type { Page } from '@safidea_/engine/page'
 import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
+import { head } from './components/head'
 
 export const templates = (t: Translation): Page => ({
   name: 'templates',
@@ -14,6 +15,7 @@ export const templates = (t: Translation): Page => ({
         content: t.templates.pageDescription,
       },
     ],
+    links: head?.links,
   },
   body: [
     header(t),
@@ -28,7 +30,7 @@ export const templates = (t: Translation): Page => ({
       buttons: [
         {
           label: t.templates.heroButtonLabel,
-          href: "https://github.com/safidea/templates",
+          href: 'https://github.com/safidea/templates',
         },
       ],
     },
