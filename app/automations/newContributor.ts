@@ -13,8 +13,8 @@ export const newContributor: Automation = {
       from: '$MAILER_FROM',
       to: '$MAILER_TO',
       subject: 'Demande de contribution de {{trigger.name}}',
-      text: 'Email : {{trigger.message}}\n\nPourquoi : {{trigger.why}}\n\nComment : {{trigger.how}}\n\nQuoi : {{trigger.what}}\n\nCompétences : {{trigger.skills}}',
-      html: 'Email : {{trigger.message}}\n\nPourquoi : {{trigger.why}}\n\nComment : {{trigger.how}}\n\nQuoi : {{trigger.what}}\n\nCompétences : {{trigger.skills}}',
+      text: 'Email : {{trigger.email}}\n\nPourquoi : {{trigger.why}}\n\nComment : {{trigger.how}}\n\nQuoi : {{trigger.what}}\n\nCompétences : {{trigger.skills}}',
+      html: 'Email : {{trigger.email}}\n\nPourquoi : {{trigger.why}}\n\nComment : {{trigger.how}}\n\nQuoi : {{trigger.what}}\n\nCompétences : {{trigger.skills}}',
     },
   ],
 }
