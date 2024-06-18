@@ -134,10 +134,10 @@ export const en: Translation = {
   requests: {
     pageTitle: 'Your custom on-demand IT service',
     pageDescription:
-      'We created Requests to help you build your web application from a predefined configuration template.',
+      'We support you in the design, development, and maintenance of your business tools through our expertise.',
     heroTitle: 'Your custom on-demand IT service',
     heroParagraph:
-      'We created Requests to help you build your web application from a predefined configuration template.',
+      'We support you in the design, development, and maintenance of your business tools through our expertise.',
     heroButtonLabel: 'Make a request',
     customersTitle: 'They trust us',
     featuresTitle: 'Our services',

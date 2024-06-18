@@ -135,10 +135,10 @@ export const fr: Translation = {
   requests: {
     pageTitle: 'Votre service IT sur-mesure à la demande',
     pageDescription:
-      'Nous avons créé Safidea Requests pour vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
+      'Nous vous accompagnons dans la conception, le développement et la maintenance de vos outils métiers grâce à notre expertise.',
     heroTitle: 'Votre service IT sur-mesure à la demande',
     heroParagraph:
-      'Nous avons créé Safidea Requests pour vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
+      'Nous vous accompagnons dans la conception, le développement et la maintenance de vos outils métiers grâce à notre expertise.',
     heroButtonLabel: 'Faire une requête',
     customersTitle: 'Ils nous font confiance',
     featuresTitle: 'Nos services',
