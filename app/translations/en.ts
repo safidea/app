@@ -10,7 +10,7 @@ export const en: Translation = {
   },
   footer: {
     paragraph:
-      'Safidea is a custom IT service dedicated to your digital well-being. This website was developed with Engine.',
+      'Safidea is a custom IT service dedicated to your digital well-being. This website has been developed with Engine.',
     whySafidea: 'Why Safidea?',
     followTheAdventure: 'Follow the adventure',
     contributeToTheProject: 'Become a contributor',
