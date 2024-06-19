@@ -30,7 +30,7 @@ export const requests = (t: Translation): Page => ({
       buttons: [
         {
           label: t.requests.heroButtonLabel,
-          href: 'https://requests.safidea.com',
+          href: 'https://requests.safidea.com' + t.path,
         },
       ],
     },
