@@ -39,7 +39,8 @@ export type Translation = {
     pageDescription: string
     heroTitle: string
     heroParagraph: string
-    heroButtonLabel: string
+    heroGithubButtonLabel: string
+    heroDocButtonLabel: string
     featuresTitle: string
     featuresParagraph: string
     features: {
@@ -52,9 +53,12 @@ export type Translation = {
       title: string
       paragraph: string
     }[]
-    ctaTitle: string
-    ctaParagraph: string
-    ctaButtonLabel: string
+    docTitle: string
+    docParagraph: string
+    docButtonLabel: string
+    templatesTitle: string
+    templatesParagraph: string
+    templatesButtonLabel: string
   }
   templates: {
     pageTitle: string

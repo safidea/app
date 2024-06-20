@@ -44,7 +44,8 @@ export const fr: Translation = {
     heroTitle: "Générez votre application web à partir d'une simple configuration",
     heroParagraph:
       "Nous construisons un puissant moteur permettant le développement complet d'une application web depuis un fichier de configuration JSON.",
-    heroButtonLabel: 'Ouvrir sur Github',
+    heroGithubButtonLabel: 'Ouvrir sur Github',
+    heroDocButtonLabel: 'Voir le schema JSON',
     featuresTitle: "Quel est l'objectif de Engine ?",
     featuresParagraph:
       'Proposer tout ce dont vous avez besoin pour créer et maintenir un logiciel en quelques minutes.',
@@ -94,10 +95,14 @@ export const fr: Translation = {
         paragraph: 'La base de données relationnelle Open Source la plus avancée au monde.',
       },
     ],
-    ctaTitle: 'Construisez votre logiciel en quelques minutes',
-    ctaParagraph:
+    docTitle: 'Apprenez à configurer Engine',
+    docParagraph:
+      'Découvrez comment configurer Engine pour construire votre application web en quelques minutes.',
+    docButtonLabel: 'Voir le schema JSON',
+    templatesTitle: 'Construisez votre logiciel en quelques minutes',
+    templatesParagraph:
       'Découvrez comment Templates peut vous aider à construire votre application web à partir de modèles de configuration prédéfinis.',
-    ctaButtonLabel: 'Découvrir Templates',
+    templatesButtonLabel: 'Découvrir Templates',
   },
   templates: {
     pageTitle: 'Développez sans partir de zéro',

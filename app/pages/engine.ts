@@ -1,8 +1,8 @@
 import type { Page } from '@safidea_/engine/page'
-import { header } from '../components/header'
-import type { Translation } from '../../translations'
-import { footer } from '../components/footer'
-import { head } from '../components/head'
+import { header } from './components/header'
+import type { Translation } from '../translations'
+import { footer } from './components/footer'
+import { head } from './components/head'
 
 export const engine = (t: Translation): Page => ({
   name: 'engine',
@@ -29,8 +29,13 @@ export const engine = (t: Translation): Page => ({
       },
       buttons: [
         {
-          label: t.engine.heroButtonLabel,
+          label: t.engine.heroGithubButtonLabel,
           href: 'https://github.com/safidea/engine',
+        },
+        {
+          label: t.engine.heroDocButtonLabel,
+          href: 'https://json-schema.app/view/%23?url=https%3A%2F%2Fsafidea.com%2Fschemas%2Fapp.schema.json',
+          variant: 'secondary',
         },
       ],
     },
@@ -77,14 +82,29 @@ export const engine = (t: Translation): Page => ({
     {
       component: 'CTA',
       title: {
-        text: t.engine.ctaTitle,
+        text: t.engine.docTitle,
       },
       paragraph: {
-        text: t.engine.ctaParagraph,
+        text: t.engine.docParagraph,
       },
       buttons: [
         {
-          label: t.engine.ctaButtonLabel,
+          label: t.engine.docButtonLabel,
+          href: "https://json-schema.app/view/%23?url=https%3A%2F%2Fsafidea.com%2Fschemas%2Fapp.schema.json",
+        },
+      ],
+    },
+    {
+      component: 'CTA',
+      title: {
+        text: t.engine.templatesTitle,
+      },
+      paragraph: {
+        text: t.engine.templatesParagraph,
+      },
+      buttons: [
+        {
+          label: t.engine.templatesButtonLabel,
           href: t.path + '/templates',
         },
       ],

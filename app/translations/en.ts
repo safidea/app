@@ -44,7 +44,8 @@ export const en: Translation = {
     heroTitle: 'Generate your web application from a simple configuration',
     heroParagraph:
       'We are building a powerful engine allowing the complete development of a web application from a JSON configuration file.',
-    heroButtonLabel: 'Open on Github',
+    heroGithubButtonLabel: 'Open on Github',
+    heroDocButtonLabel: 'View the JSON Schema',
     featuresTitle: 'What is the goal of Engine?',
     featuresParagraph:
       'Provide everything you need to create and maintain software in a few minutes.',
@@ -94,10 +95,14 @@ export const en: Translation = {
         paragraph: "The world's most advanced Open Source relational database.",
       },
     ],
-    ctaTitle: 'Build your software in a few minutes',
-    ctaParagraph:
+    docTitle: 'Learn how to configure Engine',
+    docParagraph:
+      'Discover how Engine can help you build your web application from a JSON configuration file.',
+    docButtonLabel: 'View the JSON Schema',
+    templatesTitle: 'Build your software in a few minutes',
+    templatesParagraph:
       'Discover how Templates can help you build your web application from a predefined configuration template.',
-    ctaButtonLabel: 'Discover Templates',
+    templatesButtonLabel: 'Discover Templates',
   },
   templates: {
     pageTitle: 'Develop without starting from scratch',

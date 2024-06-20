@@ -2,7 +2,6 @@ import type { App } from '@safidea_/engine'
 import { home } from './pages/home'
 import { contributors } from './tables/contributors'
 import { newContributor } from './automations/newContributor'
-import { engineDocumentation } from './pages/engine/documentation'
 import { engine } from './pages/engine'
 import { requests } from './pages/requests'
 import { templates } from './pages/templates'
@@ -32,7 +31,7 @@ const features: Feature[] = translations
     },
     {
       name: 'engine',
-      pages: [engine(t), engineDocumentation(t)],
+      pages: [engine(t)],
     },
     {
       name: 'templates',
