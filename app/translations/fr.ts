@@ -82,7 +82,7 @@ export const fr: Translation = {
     technologiesParagraph: 'Construit sur des outils performants et éprouvés.',
     technologies: [
       {
-        title: 'Express JS',
+        title: 'Express',
         paragraph: 'Infrastructure Web minimaliste, souple et rapide pour Node.js',
       },
       {
@@ -230,19 +230,26 @@ export const fr: Translation = {
       "J’ai décidé de créer Safidea car je suis profondément persuadé que la technologie est sous-exploitée, mal utilisée, mal perçue, gangrénée par des dynamiques capitalistes. Elle ne devrait pas créer de problème. Dans un monde du travail où la notion d’humain est absente, j'estime que prendre soin des autres n’est pas un luxe qu’on peut se permettre, mais une nécessité pour créer une société plus juste et plus épanouissante.",
   },
   contribute: {
-    pageTitle: 'Devenez contributeur',
+    pageTitle: 'Deviens contributeur',
     pageDescription:
-      "Que vous souhaitiez contribuer à nos projets open-source ou au développement de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
-    title: 'Devenez contributeur',
+      "Que tu souhaites contribuer à nos projets open-sources ou au développement de notre service, nous serions ravis de t'accueillir dans notre communauté.",
+    title: 'Deviens contributeur',
     paragraph:
-      "Que vous souhaitiez contribuer à nos projets open-source ou au développement de nos produits et services, nous serions ravis de vous accueillir dans l'organisation.",
-    inputName: 'Votre nom',
-    inputEmail: 'Votre email',
-    inputWhy: 'Pourquoi souhaitez-vous contribuer ?',
-    inputHow: 'Comment souhaitez-vous contribuer ?',
-    inputWhat: 'Sur quels projets souhaitez-vous contribuer ?',
-    inputSkills: 'Quelles sont vos compétences ?',
+      "Que tu souhaites contribuer à nos projets open-sources ou au développement de notre service, nous serions ravis de t'accueillir dans notre communauté.",
+    inputName: 'Ton nom',
+    inputNamePlaceholder: 'Prénom Nom',
+    inputEmail: 'Ton email',
+    inputEmailPlaceholder: 'prenom.nom@email.com',
+    inputWhy: 'Pourquoi souhaites-tu contribuer ?',
+    inputWhyPlaceholder: 'Explique-nous ta motivation',
+    inputHow: 'Comment souhaites-tu contribuer ?',
+    inputHowPlaceholder:
+      'Propose-nous tes idées, le temps que tu souhaites investir, les sujets qui t’intéressent, etc...',
+    inputWhat: 'Quels sont les projets qui t’intéressent ?',
+    inputWhatPlaceholder: 'Plutôt open-source, plutôt service ?',
+    inputSkills: 'Quelles sont tes compétences ?',
+    inputSkillsPlaceholder: 'Développement, design, backend, frontend, marketing, etc...',
     button: 'Envoyer',
-    successMessage: 'Votre demande de contribution a bien été enregistrée.',
+    successMessage: 'Ta demande de contribution a bien été enregistrée, nous te contacterons prochainement.',
   },
 }

@@ -82,7 +82,7 @@ export const en: Translation = {
     technologiesParagraph: 'Built on powerful and proven tools.',
     technologies: [
       {
-        title: 'Express JS',
+        title: 'Express',
         paragraph: 'A minimalistic, flexible, and fast web framework for Node.js.',
       },
       {
@@ -225,17 +225,24 @@ export const en: Translation = {
   contribute: {
     pageTitle: 'Become a contributor',
     pageDescription:
-      'Whether you want to contribute to our open-source projects or the development of our products and services, we would be delighted to welcome you to the organization.',
+      'Whether you wish to contribute to our open-source projects or the development of our service, we would be delighted to welcome you to our community.',
     title: 'Become a contributor',
     paragraph:
-      'Whether you want to contribute to our open-source projects or the development of our products and services, we would be delighted to welcome you to the organization.',
-    inputName: 'Your name',
-    inputEmail: 'Your email',
+      'Whether you wish to contribute to our open-source projects or the development of our service, we would be delighted to welcome you to our community.',
+    inputName: 'Your Name',
+    inputNamePlaceholder: 'First Last',
+    inputEmail: 'Your Email',
+    inputEmailPlaceholder: 'first.last@email.com',
     inputWhy: 'Why do you want to contribute?',
+    inputWhyPlaceholder: 'Tell us your motivation',
     inputHow: 'How do you want to contribute?',
-    inputWhat: 'Which projects do you want to contribute to?',
+    inputHowPlaceholder:
+      'Propose your ideas, the time you want to invest, the topics that interest you, etc...',
+    inputWhat: 'Which projects interest you?',
+    inputWhatPlaceholder: 'More open-source, more service?',
     inputSkills: 'What are your skills?',
+    inputSkillsPlaceholder: 'Development, design, backend, frontend, marketing, etc...',
     button: 'Send',
-    successMessage: 'Your contribution request has been successfully recorded.',
+    successMessage: 'Your contribution request has been successfully recorded, we will contact you soon.',
   },
 }

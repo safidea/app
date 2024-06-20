@@ -134,11 +134,17 @@ export type Translation = {
     title: string
     paragraph: string
     inputName: string
+    inputNamePlaceholder: string
     inputEmail: string
+    inputEmailPlaceholder: string
     inputWhy: string
+    inputWhyPlaceholder: string
     inputHow: string
+    inputHowPlaceholder: string
     inputWhat: string
+    inputWhatPlaceholder: string
     inputSkills: string
+    inputSkillsPlaceholder: string
     button: string
     successMessage: string
   }
