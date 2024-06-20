@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "lint": "prettier --write .",
-    "build": "bun build index.ts test.js --outdir dist --target node --external @safidea_/engine",
+    "build": "bun build index.ts test.js --outdir dist --target node --external @safidea_/engine && cp node_modules/@safidea_/engine/schemas/app.schema.json public/schemas",
     "watch": "bun build index.ts test.js --outdir dist --target node --external @safidea_/engine --watch",
     "dev": "concurrently \"nodemon dist/index.js\" \"npm run watch\"",
     "test": "node dist/test.js",
