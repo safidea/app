@@ -53,13 +53,13 @@ export const follow = (t: Translation): Page => ({
         {
           component: 'Image',
           src: '/profile.jpg',
-          alt: 'Thomas JEANNEAU',
+          alt: 'Thomas Jeanneau',
           rounded: 'xl',
           align: 'center',
         },
         {
           component: 'Title',
-          text: 'Thomas JEANNEAU',
+          text: 'Thomas Jeanneau',
           size: 'xs',
           align: 'center',
         },
