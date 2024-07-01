@@ -23,7 +23,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@safidea_/engine": "^0.9.3",
+    "@safidea_/engine": "^0.10.1",
     "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0"
   },
