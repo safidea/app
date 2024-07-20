@@ -1,4 +1,4 @@
-import type { Page } from '@safidea_/engine/page'
+import type { Page } from '@safidea_/engine'
 import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
@@ -79,7 +79,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[0].paragraph,
           },
           icon: {
-            type: 'ComputerDesktop',
+            name: 'ComputerDesktop',
           },
         },
         {
@@ -90,7 +90,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[1].paragraph,
           },
           icon: {
-            type: 'DevicePhoneMobile',
+            name: 'DevicePhoneMobile',
           },
         },
         {
@@ -101,7 +101,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[2].paragraph,
           },
           icon: {
-            type: 'CommandLine',
+            name: 'CommandLine',
           },
         },
         {
@@ -112,7 +112,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[3].paragraph,
           },
           icon: {
-            type: 'MagnifyingGlass',
+            name: 'MagnifyingGlass',
           },
         },
         {
@@ -123,7 +123,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[4].paragraph,
           },
           icon: {
-            type: 'AcademicCap',
+            name: 'AcademicCap',
           },
         },
         {
@@ -134,7 +134,7 @@ export const requests = (t: Translation): Page => ({
             text: t.requests.features[5].paragraph,
           },
           icon: {
-            type: 'ChatBubbleBottomCenterText',
+            name: 'ChatBubbleBottomCenterText',
           },
         },
       ],

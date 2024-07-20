@@ -1,4 +1,4 @@
-import type { Page } from '@safidea_/engine/page'
+import type { Page } from '@safidea_/engine'
 import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
@@ -55,7 +55,7 @@ export const engine = (t: Translation): Page => ({
           text: f.paragraph,
         },
         icon: {
-          type: 'Gift',
+          name: 'Gift',
         },
       })),
     },
@@ -75,7 +75,7 @@ export const engine = (t: Translation): Page => ({
           text: t.paragraph,
         },
         icon: {
-          type: 'Gift',
+          name: 'Gift',
         },
       })),
     },
@@ -90,7 +90,7 @@ export const engine = (t: Translation): Page => ({
       buttons: [
         {
           label: t.engine.docButtonLabel,
-          href: "https://json-schema.app/view/%23?url=https%3A%2F%2Fsafidea.com%2Fschemas%2Fapp.schema.json",
+          href: 'https://json-schema.app/view/%23?url=https%3A%2F%2Fsafidea.com%2Fschemas%2Fapp.schema.json',
         },
       ],
     },

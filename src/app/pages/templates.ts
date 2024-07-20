@@ -1,4 +1,4 @@
-import type { Page } from '@safidea_/engine/page'
+import type { Page } from '@safidea_/engine'
 import { header } from './components/header'
 import type { Translation } from '../translations'
 import { footer } from './components/footer'
@@ -51,7 +51,7 @@ export const templates = (t: Translation): Page => ({
             text: t.templates.features[0].paragraph,
           },
           icon: {
-            type: 'Gift',
+            name: 'Gift',
           },
         },
         {
@@ -62,7 +62,7 @@ export const templates = (t: Translation): Page => ({
             text: t.templates.features[0].paragraph,
           },
           icon: {
-            type: 'Gift',
+            name: 'Gift',
           },
         },
         {
@@ -73,7 +73,7 @@ export const templates = (t: Translation): Page => ({
             text: t.templates.features[0].paragraph,
           },
           icon: {
-            type: 'Gift',
+            name: 'Gift',
           },
         },
       ],

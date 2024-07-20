@@ -1,11 +1,11 @@
-import type { Table } from '@safidea_/engine/table'
+import type { Table } from '@safidea_/engine/'
 
 export const followers: Table = {
   name: 'followers',
   fields: [
     {
       name: 'email',
-      type: 'Email',
+      field: 'Email',
     },
   ],
 }

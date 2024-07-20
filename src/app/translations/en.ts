@@ -243,6 +243,7 @@ export const en: Translation = {
     inputSkills: 'What are your skills?',
     inputSkillsPlaceholder: 'Development, design, backend, frontend, marketing, etc...',
     button: 'Send',
-    successMessage: 'Your contribution request has been successfully recorded, we will contact you soon.',
+    successMessage:
+      'Your contribution request has been successfully recorded, we will contact you soon.',
   },
 }

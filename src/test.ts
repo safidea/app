@@ -5,6 +5,4 @@ import App from '@safidea_/engine'
 import { app as config } from './app'
 
 const app = new App()
-const url = await app.start(config)
-
-console.log(`Server started at ${url}`)
+await app.test(config)

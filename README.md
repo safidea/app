@@ -16,11 +16,14 @@ bun run dev
 
 ## Roadmap
 
-- [ ] Install Sentry
-- [ ] Fix multiple email sending
+- [ ] Customize the design
 - [ ] Add testimonials
 - [ ] Add video talk for Engine
-- [ ] Customize the design
+- [ ] Add blog
+- [ ] Detect user's language
+- [ ] Can change language
+- [ ] Install Sentry
+- [ ] Fix multiple email sending
 - [ ] Detect user's language
 - [ ] Can change language
 - [ ] More details about Requests

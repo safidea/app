@@ -1,4 +1,4 @@
-import type { Component, Page } from '@safidea_/engine/page'
+import type { Component, Page } from '@safidea_/engine'
 import { footer } from './components/footer'
 import { header } from './components/header'
 import type { Translation } from '../translations'

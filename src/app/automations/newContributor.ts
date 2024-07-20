@@ -1,9 +1,9 @@
-import type { Automation } from '@safidea_/engine/automation'
+import type { Automation } from '@safidea_/engine'
 
 export const newContributor: Automation = {
   name: 'newContributor',
   trigger: {
-    event: 'RecordCreated',
+    trigger: 'RecordCreated',
     table: 'contributors',
   },
   actions: [

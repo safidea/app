@@ -1,4 +1,4 @@
-import type { Page } from '@safidea_/engine/page'
+import type { Page } from '@safidea_/engine'
 
 export const head: Page['head'] = {
   links: [

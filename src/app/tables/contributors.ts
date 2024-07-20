@@ -1,31 +1,31 @@
-import type { Table } from '@safidea_/engine/table'
+import type { Table } from '@safidea_/engine'
 
 export const contributors: Table = {
   name: 'contributors',
   fields: [
     {
       name: 'name',
-      type: 'SingleLineText',
+      field: 'SingleLineText',
     },
     {
       name: 'email',
-      type: 'Email',
+      field: 'Email',
     },
     {
       name: 'why',
-      type: 'LongText',
+      field: 'LongText',
     },
     {
       name: 'how',
-      type: 'LongText',
+      field: 'LongText',
     },
     {
       name: 'what',
-      type: 'LongText',
+      field: 'LongText',
     },
     {
       name: 'skills',
-      type: 'LongText',
+      field: 'LongText',
     },
   ],
 }

@@ -1,4 +1,4 @@
-import type { Component } from '@safidea_/engine/page'
+import type { Component } from '@safidea_/engine'
 import type { Translation } from '../../translations'
 
 export const header = (t: Translation): Component => ({
