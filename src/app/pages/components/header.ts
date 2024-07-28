@@ -37,6 +37,7 @@ export const header = (t: Translation): Component => ({
     {
       label: t.header.contributeToTheProject,
       href: t.path + '/contribute',
+      variant: 'secondary',
     },
   ],
 })

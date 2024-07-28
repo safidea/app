@@ -77,6 +77,7 @@ export const contribute = (t: Translation): Page => ({
         {
           label: t.contribute.button,
           type: 'submit',
+          variant: 'secondary',
         },
       ],
       successMessage: t.contribute.successMessage,

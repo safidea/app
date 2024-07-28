@@ -20,137 +20,150 @@ export const requests = (t: Translation): Page => ({
   body: [
     header(t),
     {
-      component: 'Hero',
-      title: {
-        text: t.requests.heroTitle,
-      },
-      paragraph: {
-        text: t.requests.heroParagraph,
-      },
-      buttons: [
+      component: 'Container',
+      center: true,
+      className: 'max-w-5xl',
+      children: [
         {
-          label: t.requests.heroButtonLabel,
-          href: 'https://requests.safidea.com' + t.path,
-        },
-      ],
-    },
-    {
-      component: 'Logos',
-      title: {
-        text: t.requests.customersTitle,
-      },
-      images: [
-        {
-          alt: 'Agorastore',
-          src: '/customers/agorastore.jpeg',
-        },
-        {
-          alt: 'Capital PV',
-          src: '/customers/capital-pv.png',
-        },
-        {
-          alt: 'Codesign-it',
-          src: '/customers/codesign-it.png',
-        },
-        {
-          alt: "D'un seul geste",
-          src: '/customers/dun-seul-geste.png',
-        },
-        {
-          alt: "L'intendance",
-          src: '/customers/lintendance.png',
-        },
-      ],
-    },
-    {
-      component: 'Features',
-      title: {
-        text: t.requests.featuresTitle,
-      },
-      paragraph: {
-        text: t.requests.featuresParagraph,
-      },
-      features: [
-        {
+          component: 'Hero',
+          className: 'my-16',
           title: {
-            text: t.requests.features[0].title,
+            text: t.requests.heroTitle,
           },
           paragraph: {
-            text: t.requests.features[0].paragraph,
+            text: t.requests.heroParagraph,
           },
-          icon: {
-            name: 'ComputerDesktop',
-          },
+          buttons: [
+            {
+              label: t.requests.heroButtonLabel,
+              href: 'https://requests.safidea.com' + t.path,
+              variant: 'secondary',
+            },
+          ],
         },
         {
+          component: 'Logos',
           title: {
-            text: t.requests.features[1].title,
+            text: t.requests.customersTitle,
+          },
+          className: 'my-16',
+          images: [
+            {
+              alt: 'Agorastore',
+              src: '/customers/agorastore.jpeg',
+            },
+            {
+              alt: 'Capital PV',
+              src: '/customers/capital-pv.png',
+            },
+            {
+              alt: 'Codesign-it',
+              src: '/customers/codesign-it.png',
+            },
+            {
+              alt: "D'un seul geste",
+              src: '/customers/dun-seul-geste.png',
+            },
+            {
+              alt: "L'intendance",
+              src: '/customers/lintendance.png',
+            },
+          ],
+        },
+        {
+          component: 'Features',
+          className: 'my-16',
+          title: {
+            text: t.requests.featuresTitle,
           },
           paragraph: {
-            text: t.requests.features[1].paragraph,
+            text: t.requests.featuresParagraph,
           },
-          icon: {
-            name: 'DevicePhoneMobile',
-          },
+          features: [
+            {
+              title: {
+                text: t.requests.features[0].title,
+              },
+              paragraph: {
+                text: t.requests.features[0].paragraph,
+              },
+              icon: {
+                name: 'ComputerDesktop',
+              },
+            },
+            {
+              title: {
+                text: t.requests.features[1].title,
+              },
+              paragraph: {
+                text: t.requests.features[1].paragraph,
+              },
+              icon: {
+                name: 'DevicePhoneMobile',
+              },
+            },
+            {
+              title: {
+                text: t.requests.features[2].title,
+              },
+              paragraph: {
+                text: t.requests.features[2].paragraph,
+              },
+              icon: {
+                name: 'CommandLine',
+              },
+            },
+            {
+              title: {
+                text: t.requests.features[3].title,
+              },
+              paragraph: {
+                text: t.requests.features[3].paragraph,
+              },
+              icon: {
+                name: 'MagnifyingGlass',
+              },
+            },
+            {
+              title: {
+                text: t.requests.features[4].title,
+              },
+              paragraph: {
+                text: t.requests.features[4].paragraph,
+              },
+              icon: {
+                name: 'AcademicCap',
+              },
+            },
+            {
+              title: {
+                text: t.requests.features[5].title,
+              },
+              paragraph: {
+                text: t.requests.features[5].paragraph,
+              },
+              icon: {
+                name: 'ChatBubbleBottomCenterText',
+              },
+            },
+          ],
         },
         {
+          component: 'CTA',
+          className: 'my-16',
           title: {
-            text: t.requests.features[2].title,
+            text: t.requests.ctaTitle,
           },
           paragraph: {
-            text: t.requests.features[2].paragraph,
+            text: t.requests.ctaParagraph,
           },
-          icon: {
-            name: 'CommandLine',
-          },
-        },
-        {
-          title: {
-            text: t.requests.features[3].title,
-          },
-          paragraph: {
-            text: t.requests.features[3].paragraph,
-          },
-          icon: {
-            name: 'MagnifyingGlass',
-          },
-        },
-        {
-          title: {
-            text: t.requests.features[4].title,
-          },
-          paragraph: {
-            text: t.requests.features[4].paragraph,
-          },
-          icon: {
-            name: 'AcademicCap',
-          },
-        },
-        {
-          title: {
-            text: t.requests.features[5].title,
-          },
-          paragraph: {
-            text: t.requests.features[5].paragraph,
-          },
-          icon: {
-            name: 'ChatBubbleBottomCenterText',
-          },
-        },
-      ],
-    },
-    {
-      component: 'CTA',
-      title: {
-        text: t.requests.ctaTitle,
-      },
-      paragraph: {
-        text: t.requests.ctaParagraph,
-      },
-      buttons: [
-        {
-          label: t.requests.ctaButtonLabel,
-          href: 'https://requests.safidea.com',
+          buttons: [
+            {
+              label: t.requests.ctaButtonLabel,
+              href: 'https://requests.safidea.com',
+              variant: 'secondary',
+            },
+          ],
         },
       ],
     },

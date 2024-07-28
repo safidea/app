@@ -20,58 +20,68 @@ export const follow = (t: Translation): Page => ({
   body: [
     header(t),
     {
-      component: 'Form',
-      title: {
-        text: t.follow.title,
-      },
-      paragraph: {
-        text: t.follow.paragraph,
-      },
-      action: '/api/table/followers',
-      method: 'POST',
-      inputs: [
-        {
-          name: 'email',
-          label: t.follow.email,
-          placeholder: t.follow.emailPlaceholder,
-          type: 'email',
-          required: true,
-        },
-      ],
-      buttons: [
-        {
-          label: t.follow.buttonLabel,
-          type: 'submit',
-        },
-      ],
-      successMessage: t.follow.successMessage,
-    },
-    {
       component: 'Container',
+      center: true,
+      className: 'max-w-5xl',
       children: [
         {
-          component: 'Image',
-          src: '/profile.jpg',
-          alt: 'Thomas Jeanneau',
-          rounded: 'xl',
-          align: 'center',
+          component: 'Form',
+          title: {
+            text: t.follow.title,
+          },
+          paragraph: {
+            text: t.follow.paragraph,
+          },
+          action: '/api/table/followers',
+          method: 'POST',
+          inputs: [
+            {
+              name: 'email',
+              label: t.follow.email,
+              placeholder: t.follow.emailPlaceholder,
+              type: 'email',
+              required: true,
+            },
+          ],
+          buttons: [
+            {
+              label: t.follow.buttonLabel,
+              type: 'submit',
+              variant: 'secondary',
+            },
+          ],
+          successMessage: t.follow.successMessage,
         },
         {
-          component: 'Title',
-          text: 'Thomas Jeanneau',
-          size: 'xs',
-          align: 'center',
-        },
-        {
-          component: 'Paragraph',
-          text: t.follow.founderTitle,
-          align: 'center',
-        },
-        {
-          component: 'Paragraph',
-          text: '"' + t.follow.founderDescription + '"',
-          align: 'center',
-          size: 'lg',
+          component: 'Container',
+          className: 'max-w-2xl',
+          center: true,
+          children: [
+            {
+              component: 'Image',
+              src: '/profile.jpg',
+              alt: 'Thomas Jeanneau',
+              rounded: 'xl',
+              align: 'center',
+            },
+            {
+              component: 'Title',
+              text: 'Thomas Jeanneau',
+              size: 'xs',
+              align: 'center',
+            },
+            {
+              component: 'Paragraph',
+              text: t.follow.founderTitle,
+              align: 'center',
+            },
+            {
+              component: 'Paragraph',
+              text: '"' + t.follow.founderDescription + '"',
+              align: 'center',
+              size: 'lg',
+            },
+          ],
         },
       ],
     },

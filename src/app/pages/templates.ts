@@ -20,76 +20,88 @@ export const templates = (t: Translation): Page => ({
   body: [
     header(t),
     {
-      component: 'Hero',
-      title: {
-        text: t.templates.heroTitle,
-      },
-      paragraph: {
-        text: t.templates.heroParagraph,
-      },
-      buttons: [
+      component: 'Container',
+      center: true,
+      className: 'max-w-5xl',
+      children: [
         {
-          label: t.templates.heroButtonLabel,
-          href: 'https://github.com/safidea/templates',
-        },
-      ],
-    },
-    {
-      component: 'Features',
-      title: {
-        text: t.templates.featuresTitle,
-      },
-      paragraph: {
-        text: t.templates.featuresParagraph,
-      },
-      features: [
-        {
+          component: 'Hero',
+          className: 'my-16',
           title: {
-            text: t.templates.features[0].title,
+            text: t.templates.heroTitle,
           },
           paragraph: {
-            text: t.templates.features[0].paragraph,
+            text: t.templates.heroParagraph,
           },
-          icon: {
-            name: 'Gift',
-          },
+          buttons: [
+            {
+              label: t.templates.heroButtonLabel,
+              href: 'https://github.com/safidea/templates',
+              variant: 'secondary',
+            },
+          ],
         },
         {
+          component: 'Features',
+          className: 'my-16',
           title: {
-            text: t.templates.features[0].title,
+            text: t.templates.featuresTitle,
           },
           paragraph: {
-            text: t.templates.features[0].paragraph,
+            text: t.templates.featuresParagraph,
           },
-          icon: {
-            name: 'Gift',
-          },
+          features: [
+            {
+              title: {
+                text: t.templates.features[0].title,
+              },
+              paragraph: {
+                text: t.templates.features[0].paragraph,
+              },
+              icon: {
+                name: 'Gift',
+              },
+            },
+            {
+              title: {
+                text: t.templates.features[0].title,
+              },
+              paragraph: {
+                text: t.templates.features[0].paragraph,
+              },
+              icon: {
+                name: 'Gift',
+              },
+            },
+            {
+              title: {
+                text: t.templates.features[0].title,
+              },
+              paragraph: {
+                text: t.templates.features[0].paragraph,
+              },
+              icon: {
+                name: 'Gift',
+              },
+            },
+          ],
         },
         {
+          component: 'CTA',
+          className: 'my-16',
           title: {
-            text: t.templates.features[0].title,
+            text: t.templates.ctaTitle,
           },
           paragraph: {
-            text: t.templates.features[0].paragraph,
+            text: t.templates.ctaParagraph,
           },
-          icon: {
-            name: 'Gift',
-          },
-        },
-      ],
-    },
-    {
-      component: 'CTA',
-      title: {
-        text: t.templates.ctaTitle,
-      },
-      paragraph: {
-        text: t.templates.ctaParagraph,
-      },
-      buttons: [
-        {
-          label: t.templates.ctaButtonLabel,
-          href: t.path + '/requests',
+          buttons: [
+            {
+              label: t.templates.ctaButtonLabel,
+              href: t.path + '/requests',
+              variant: 'secondary',
+            },
+          ],
         },
       ],
     },

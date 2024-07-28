@@ -13,7 +13,7 @@ import { followers } from './tables/followers'
 import { homeTests } from '../tests/home'
 
 export const app: App = {
-  name: 'Safidea website',
+  name: 'Safidea',
   tests: [...homeTests],
   pages: translations
     .map((t) => [home(t), why(t), follow(t), contribute(t), engine(t), templates(t), requests(t)])
