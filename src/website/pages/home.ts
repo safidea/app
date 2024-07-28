@@ -1,8 +1,8 @@
 import type { Component, Page } from '@safidea_/engine'
-import { footer } from './components/footer'
-import { header } from './components/header'
+import { footer } from './shared/footer'
+import { header } from './shared/header'
 import type { Translation } from '../translations'
-import { head } from './components/head'
+import { head } from './shared/head'
 
 export const home = (t: Translation): Page => ({
   name: 'home',

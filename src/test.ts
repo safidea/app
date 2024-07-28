@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 import App from '@safidea_/engine'
-import { app as config } from './app'
+import { config } from './config'
 
 const app = new App()
 await app.test(config)

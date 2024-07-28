@@ -1,8 +1,8 @@
 import type { Page } from '@safidea_/engine'
-import { header } from './components/header'
+import { header } from './shared/header'
 import type { Translation } from '../translations'
-import { footer } from './components/footer'
-import { head } from './components/head'
+import { footer } from './shared/footer'
+import { head } from './shared/head'
 
 export const templates = (t: Translation): Page => ({
   name: 'templates',
