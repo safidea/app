@@ -4,6 +4,9 @@ import { sidebar } from './shared/sidebar'
 export const newTime: Page = {
   name: 'new-time',
   path: '/workplace/times/new',
+  head: {
+    title: 'Nouveau temps passé',
+  },
   body: [
     sidebar([
       {
