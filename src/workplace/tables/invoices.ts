@@ -28,6 +28,19 @@ export const invoices: Table = {
       field: 'DateTime',
     },
     {
+      name: 'due_date',
+      field: 'DateTime',
+    },
+    {
+      name: 'items',
+      field: 'MultipleLinkedRecord',
+      table: 'items',
+    },
+    {
+      name: 'total_ht',
+      field: 'Number',
+    },
+    {
       name: 'total_et',
       field: 'Number',
     },
