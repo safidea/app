@@ -37,20 +37,34 @@ export const invoices: Table = {
       table: 'items',
     },
     {
-      name: 'total_ht',
-      field: 'Number',
-    },
-    {
       name: 'total_et',
-      field: 'Number',
+      field: 'Rollup',
+      multipleLinkedRecord: 'items',
+      linkedRecordField: 'total_et',
+      formula: 'SUM(values)',
+      output: {
+        field: 'Number',
+      },
     },
     {
       name: 'total_vat',
-      field: 'Number',
+      field: 'Rollup',
+      multipleLinkedRecord: 'items',
+      linkedRecordField: 'total_vat',
+      formula: 'SUM(values)',
+      output: {
+        field: 'Number',
+      },
     },
     {
       name: 'total_ati',
-      field: 'Number',
+      field: 'Rollup',
+      multipleLinkedRecord: 'items',
+      linkedRecordField: 'total_ati',
+      formula: 'SUM(values)',
+      output: {
+        field: 'Number',
+      },
     },
   ],
 }
