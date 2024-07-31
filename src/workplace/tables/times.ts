@@ -5,12 +5,14 @@ export const times: Table = {
   fields: [
     {
       name: 'customer',
-      field: 'SingleLineText',
+      field: 'SingleLinkedRecord',
+      table: 'customers',
       required: true,
     },
     {
       name: 'project',
-      field: 'SingleLineText',
+      field: 'SingleLinkedRecord',
+      table: 'projects',
       required: true,
     },
     {
@@ -24,6 +26,14 @@ export const times: Table = {
       field: 'SingleSelect',
       options: ['0', '15', '30', '45'],
       required: true,
+    },
+    {
+      name: 'cost',
+      field: 'Formula',
+      formula: '(CAST(hours AS INTEGER) * 60 + CAST(minutes AS INTEGER)) / 60 * 200',
+      output: {
+        field: 'Number',
+      },
     },
     {
       name: 'content',
