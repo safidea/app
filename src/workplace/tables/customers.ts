@@ -19,6 +19,11 @@ export const customers: Table = {
       required: true,
     },
     {
+      name: 'address_city',
+      field: 'SingleLineText',
+      required: true,
+    },
+    {
       name: 'address_country',
       field: 'SingleLineText',
       required: true,
