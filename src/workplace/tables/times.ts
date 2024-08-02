@@ -30,7 +30,7 @@ export const times: Table = {
     {
       name: 'cost',
       field: 'Formula',
-      formula: '(CAST(hours AS INTEGER) * 60 + CAST(minutes AS INTEGER)) / 60 * 200',
+      formula: '(CAST(hours AS INTEGER) * 60 + CAST(minutes AS INTEGER)) / 60.0 * 200',
       output: {
         field: 'Number',
       },

@@ -7,10 +7,10 @@
     "build": "bun build src/index.ts --outdir dist --target node --external @safidea_/engine && cp node_modules/@safidea_/engine/schemas/app.schema.json public/schemas",
     "build:test": "bun build src/test.ts --outdir dist --target node --external @safidea_/engine",
     "watch": "bun build src/index.ts --outdir dist --target node --external @safidea_/engine --watch",
-    "dev": "concurrently \"nodemon dist/index.js\" \"npm run watch\"",
+    "dev": "concurrently \"NODE_OPTIONS=--no-deprecation nodemon dist/index.js\" \"npm run watch\"",
     "pretest": "bun run build:test",
-    "test": "node dist/test.js",
-    "start": "node dist/index.js",
+    "test": "NODE_OPTIONS=--no-deprecation node dist/test.js",
+    "start": "NODE_OPTIONS=--no-deprecation node dist/index.js",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -24,12 +24,12 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@safidea_/engine": "^0.22.3",
+    "@safidea_/engine": "^0.24.2",
     "dotenv": "^16.4.5"
   },
   "engines": {
     "bun": "1.1.21",
-    "node": "20.15.1",
-    "npm": "10.7.0"
+    "node": "22.5.1",
+    "npm": "10.8.2"
   }
 }

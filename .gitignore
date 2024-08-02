@@ -177,3 +177,4 @@ dist
 # Local Database
 local.db
 local.db-*
+sql/

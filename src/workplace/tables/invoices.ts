@@ -4,20 +4,9 @@ export const invoices: Table = {
   name: 'invoices',
   fields: [
     {
-      name: 'customer_name',
-      field: 'SingleLineText',
-    },
-    {
-      name: 'customer_address_street',
-      field: 'SingleLineText',
-    },
-    {
-      name: 'customer_address_postal_code',
-      field: 'SingleLineText',
-    },
-    {
-      name: 'customer_address_country',
-      field: 'SingleLineText',
+      name: 'customer',
+      field: 'SingleLinkedRecord',
+      table: 'customers',
     },
     {
       name: 'number',

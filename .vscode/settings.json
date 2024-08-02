@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:safidea-app}/local.db",
+      "name": "app-database"
+    }
+  ]
+}
